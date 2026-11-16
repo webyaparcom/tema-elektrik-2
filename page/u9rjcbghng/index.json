@@ -1,0 +1,40 @@
+{
+  "id": "u9rjcbghng",
+  "name": {
+    "tr": "İşlerimiz",
+    "en": "Our work",
+    "ar": "أعمالنا"
+  },
+  "description": {
+    "tr": "İlçelere göre tamamlanan işler ve vakalar (kurgusal).",
+    "en": "Completed jobs and cases by district (fictional).",
+    "ar": "الأعمال المنجزة والحالات حسب المنطقة (افتراضية)."
+  },
+  "keyword": {
+    "tr": "referans, müşteri yorumu",
+    "en": "reference, review",
+    "ar": "مرجع، تقييم"
+  },
+  "path": "referanslar",
+  "icon": "stars",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "avxboo",
+      "mije51"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "İşlerimiz",
+    "en": "Our work",
+    "ar": "أعمالنا"
+  },
+  "date": "2026-11-16T11:26:04.266Z",
+  "update": "2026-11-16T11:26:04.270Z"
+}

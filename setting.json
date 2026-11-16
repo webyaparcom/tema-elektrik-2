@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Faz Elektrik: arıza, pano, tesisat ve şarj ünitesi için üç adımda online teklif; 07:00–23:00 saha ekibi. Demo site; içerik kurgusaldır.",
+    "en": "Faz Electric: an online quote in three steps for faults, panels, wiring and EV chargers; field crews 07:00–23:00. Demo site; content is fictional.",
+    "ar": "فاز للكهرباء: عرض سعر عبر الإنترنت في ثلاث خطوات للأعطال واللوحات والتمديدات وشواحن السيارات؛ فرق ميدانية من 07:00 إلى 23:00. موقع تجريبي؛ المحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "elektrikçi, elektrik arıza, pano yenileme, elektrik tesisatı, şarj ünitesi",
+    "en": "electrician, electrical fault, panel replacement, electrical wiring, EV charger",
+    "ar": "كهربائي، أعطال كهربائية، تجديد اللوحات، تمديدات كهربائية، شاحن سيارات كهربائية"
+  },
+  "category": "Kurumsal",
+  "name": "Faz Elektrik",
+  "domain": "elektrik-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "open-sans",
+    "heading": "rubik",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#1D4ED8",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "6px",
+    "--mx-radius-md": "10px",
+    "--mx-radius-lg": "14px",
+    "--mx-radius-xl": "19px"
+  },
+  "icon": "icon.png"
+}

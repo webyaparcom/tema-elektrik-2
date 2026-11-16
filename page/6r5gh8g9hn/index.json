@@ -1,0 +1,40 @@
+{
+  "id": "6r5gh8g9hn",
+  "name": {
+    "tr": "Arıza rehberi",
+    "en": "Fault guide",
+    "ar": "دليل الأعطال"
+  },
+  "description": {
+    "tr": "Sık görülen arızalar için adım adım güvenlik rehberi.",
+    "en": "A step-by-step safety guide for common faults.",
+    "ar": "دليل سلامة خطوة بخطوة للأعطال الشائعة."
+  },
+  "keyword": {
+    "tr": "sss, soru cevap",
+    "en": "faq, questions",
+    "ar": "أسئلة وأجوبة"
+  },
+  "path": "sorular",
+  "icon": "help",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "xpllz1",
+      "gyz5fx"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Arıza rehberi",
+    "en": "Fault guide",
+    "ar": "دليل الأعطال"
+  },
+  "date": "2026-11-16T11:26:04.262Z",
+  "update": "2026-11-16T11:26:04.265Z"
+}

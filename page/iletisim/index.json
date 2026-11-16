@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Kapsama ve iletişim",
+    "en": "Coverage & contact",
+    "ar": "التغطية والتواصل"
+  },
+  "status": "play",
+  "category": "",
+  "id": "iletisim",
+  "url": "",
+  "path": "iletisim",
+  "index": 5,
+  "icon": "call",
+  "desing": {
+    "header": [],
+    "body": [
+      "m0xoej",
+      "k8mp01"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Adres, telefon ve çalışma saatleri.",
+    "en": "Address, phone and opening hours.",
+    "ar": "العنوان والهاتف وساعات العمل."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Kapsama ve iletişim",
+    "en": "Coverage & contact",
+    "ar": "التغطية والتواصل"
+  },
+  "keyword": {
+    "tr": "iletişim",
+    "en": "contact",
+    "ar": "اتصال"
+  },
+  "text": {},
+  "update": "2026-11-16T11:26:04.278Z",
+  "date": "2026-10-30"
+}
