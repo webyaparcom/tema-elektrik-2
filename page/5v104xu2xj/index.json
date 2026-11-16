@@ -1,0 +1,40 @@
+{
+  "id": "5v104xu2xj",
+  "name": {
+    "tr": "Teklif sihirbazı",
+    "en": "Quote wizard",
+    "ar": "معالج عرض السعر"
+  },
+  "description": {
+    "tr": "Üç adımda elektrik işi teklifi (demo).",
+    "en": "A three-step electrical quote (demo).",
+    "ar": "عرض سعر لعمل كهربائي في ثلاث خطوات (تجريبي)."
+  },
+  "keyword": {
+    "tr": "teklif",
+    "en": "quote",
+    "ar": "عرض سعر"
+  },
+  "path": "teklif-al",
+  "icon": "request_quote",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "s73b52",
+      "xpllz1"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Teklif sihirbazı",
+    "en": "Quote wizard",
+    "ar": "معالج عرض السعر"
+  },
+  "date": "2026-11-16T11:26:04.271Z",
+  "update": "2026-11-16T11:26:04.275Z"
+}

@@ -1,0 +1,3779 @@
+{
+  "data": [
+    {
+      "name": "Demo Bandı",
+      "path": "demo-bandi",
+      "local": "header",
+      "category": "demo",
+      "id": "k8db01",
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
+        },
+        "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
+      },
+      "version": "1.0.0",
+      "icon": "info",
+      "index": 0
+    },
+    {
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "category": "menu",
+      "id": "k8mn01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "height": "84px",
+        "background-color": "var(--mx-site-bg, #ffffff)",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
+      },
+      "version": "1.0.0",
+      "icon": "menu",
+      "index": 1
+    },
+    {
+      "name": "Hero 2 (Ortalanmış)",
+      "path": "hero-2",
+      "local": "body",
+      "category": "hero",
+      "id": "k8hr01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "glow1": "rgba(255,255,255,.16)",
+        "glow2": "rgba(255,255,255,.1)",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "badge": {
+          "tr": "Emlak",
+          "en": "Real estate",
+          "ar": "عقارات"
+        },
+        "title": {
+          "tr": "Hayalinizdeki yeri birlikte bulalım",
+          "en": "Let's find your dream home together",
+          "ar": "لنجد معًا المكان الذي تحلم به"
+        },
+        "description": {
+          "tr": "Satılık ve kiralık seçkin portföy, şeffaf süreç, her ilanda yetki belgesi numarası.",
+          "en": "A curated sale and rental portfolio, a transparent process, a permit number on every listing.",
+          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان."
+        },
+        "btn1Text": {
+          "tr": "İlanları gör",
+          "en": "Browse listings",
+          "ar": "تصفح الإعلانات"
+        },
+        "btn1Url": "ilanlar",
+        "btn2Text": {
+          "tr": "Değerleme",
+          "en": "Valuation",
+          "ar": "التقييم"
+        },
+        "btn2Url": "iletisim"
+      },
+      "version": "1.0.0",
+      "icon": "hero",
+      "index": 2
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "path": "ilan-filtre",
+      "local": "body",
+      "category": "page-list",
+      "id": "k8il01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Emlak İlanları",
+          "en": "Property Listings",
+          "ar": "إعلانات العقارات"
+        },
+        "subtitle": {
+          "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
+          "en": "Filter, sort and compare properties for sale and for rent.",
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+        },
+        "searchLabel": {
+          "tr": "İlan ara",
+          "en": "Search listings",
+          "ar": "ابحث في الإعلانات"
+        },
+        "searchPlaceholder": {
+          "tr": "Semt veya ilan başlığı…",
+          "en": "District or listing title…",
+          "ar": "الحي أو عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "İşlem türü",
+          "en": "Deal type",
+          "ar": "نوع الصفقة"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Emlak türü",
+          "en": "Property type",
+          "ar": "نوع العقار"
+        },
+        "roomsTitle": {
+          "tr": "Oda sayısı",
+          "en": "Rooms",
+          "ar": "عدد الغرف"
+        },
+        "m2Title": {
+          "tr": "Alan (m²)",
+          "en": "Area (m²)",
+          "ar": "المساحة (م²)"
+        },
+        "priceTitle": {
+          "tr": "Fiyat",
+          "en": "Price",
+          "ar": "السعر"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Alan: büyükten küçüğe",
+          "en": "Area: large to small",
+          "ar": "المساحة: من الأكبر إلى الأصغر"
+        },
+        "sortM2Asc": {
+          "tr": "Alan: küçükten büyüğe",
+          "en": "Area: small to large",
+          "ar": "المساحة: من الأصغر إلى الأكبر"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} ilan bulundu",
+            "other": "{n} ilan bulundu"
+          },
+          "en": {
+            "one": "{n} listing found",
+            "other": "{n} listings found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على إعلانات",
+            "one": "تم العثور على إعلان واحد",
+            "two": "تم العثور على إعلانين",
+            "few": "تم العثور على {n} إعلانات",
+            "many": "تم العثور على {n} إعلانًا",
+            "other": "تم العثور على {n} إعلان"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Yetki belgesi no",
+          "en": "Authorization certificate no.",
+          "ar": "رقم شهادة التفويض"
+        },
+        "permitDemo": {
+          "tr": "Yetki belgesi no: örnek ilan (DEMO)",
+          "en": "Authorization no.: sample listing (DEMO)",
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+        },
+        "perMonth": {
+          "tr": "/ ay",
+          "en": "/ month",
+          "ar": "/ شهريًا"
+        },
+        "details": {
+          "tr": "İlan detayı",
+          "en": "View listing",
+          "ar": "تفاصيل الإعلان"
+        },
+        "dateLabel": {
+          "tr": "İlan tarihi",
+          "en": "Listed on",
+          "ar": "تاريخ الإعلان"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
+          "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+        }
+      },
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price",
+          "district"
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        },
+        "listings": [
+          {
+            "id": "ilan-001",
+            "title": {
+              "tr": "Deniz manzaralı 3+1 daire",
+              "en": "3+1 apartment with sea view",
+              "ar": "شقة 3+1 بإطلالة بحرية"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "3+1",
+            "m2": 142,
+            "price": 6850000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Kadıköy",
+              "en": "Kadikoy",
+              "ar": "قاضي كوي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0001",
+            "url": "",
+            "date": "2026-10-24",
+            "badge": {
+              "tr": "Yeni",
+              "en": "New",
+              "ar": "جديد"
+            }
+          },
+          {
+            "id": "ilan-002",
+            "title": {
+              "tr": "Bahçe katı 2+1 kiralık daire",
+              "en": "2+1 garden-floor apartment for rent",
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 95,
+            "price": 38000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Ankara",
+              "en": "Ankara",
+              "ar": "أنقرة"
+            },
+            "district": {
+              "tr": "Çankaya",
+              "en": "Cankaya",
+              "ar": "تشانكايا"
+            },
+            "img": [],
+            "permitNo": "DEMO-06-0002",
+            "url": "",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "ilan-003",
+            "title": {
+              "tr": "Havuzlu müstakil villa",
+              "en": "Detached villa with pool",
+              "ar": "فيلا مستقلة مع مسبح"
+            },
+            "deal": "sale",
+            "type": "villa",
+            "rooms": "5+2",
+            "m2": 320,
+            "price": 18900000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Muğla",
+              "en": "Mugla",
+              "ar": "موغلا"
+            },
+            "district": {
+              "tr": "Bodrum",
+              "en": "Bodrum",
+              "ar": "بودروم"
+            },
+            "img": [],
+            "permitNo": "DEMO-48-0003",
+            "url": "",
+            "date": "2026-10-18"
+          },
+          {
+            "id": "ilan-004",
+            "title": {
+              "tr": "Eşyalı 1+1 kiralık daire",
+              "en": "Furnished 1+1 apartment for rent",
+              "ar": "شقة 1+1 مفروشة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "1+1",
+            "m2": 55,
+            "price": 22500,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Karşıyaka",
+              "en": "Karsiyaka",
+              "ar": "قارشيياكا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0004",
+            "url": "",
+            "date": "2026-10-15"
+          },
+          {
+            "id": "ilan-005",
+            "title": {
+              "tr": "İmarlı satılık arsa",
+              "en": "Zoned plot for sale",
+              "ar": "أرض مخططة للبيع"
+            },
+            "deal": "sale",
+            "type": "arsa",
+            "rooms": "",
+            "m2": 600,
+            "price": 3200000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Urla",
+              "en": "Urla",
+              "ar": "أورلا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0005",
+            "url": "",
+            "date": "2026-10-11"
+          },
+          {
+            "id": "ilan-006",
+            "title": {
+              "tr": "Cadde üstü kiralık dükkân",
+              "en": "Street-front shop for rent",
+              "ar": "محل على الشارع الرئيسي للإيجار"
+            },
+            "deal": "rent",
+            "type": "isyeri",
+            "rooms": "",
+            "m2": 120,
+            "price": 65000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Şişli",
+              "en": "Sisli",
+              "ar": "شيشلي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0006",
+            "url": "",
+            "date": "2026-10-08"
+          },
+          {
+            "id": "ilan-007",
+            "title": {
+              "tr": "Site içinde 2+1 daire",
+              "en": "2+1 apartment in a gated complex",
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 100,
+            "price": 4150000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Bursa",
+              "en": "Bursa",
+              "ar": "بورصة"
+            },
+            "district": {
+              "tr": "Nilüfer",
+              "en": "Nilufer",
+              "ar": "نيلوفر"
+            },
+            "img": [],
+            "permitNo": "DEMO-16-0007",
+            "url": "",
+            "date": "2026-10-05"
+          },
+          {
+            "id": "ilan-008",
+            "title": {
+              "tr": "Merkezi konumda 1+1 rezidans",
+              "en": "1+1 residence in a central location",
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+            },
+            "deal": "sale",
+            "type": "rezidans",
+            "rooms": "1+1",
+            "m2": 70,
+            "price": 5300000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Beşiktaş",
+              "en": "Besiktas",
+              "ar": "بشيكتاش"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0008",
+            "url": "",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      "index": 3
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "path": "stats-1",
+      "local": "body",
+      "category": "stats",
+      "id": "k8st01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "monitoring",
+      "data": [
+        {
+          "number": 150,
+          "suffix": "+",
+          "label": {
+            "tr": "Tamamlanan Proje",
+            "en": "Completed Projects",
+            "ar": "مشروع منجز"
+          },
+          "icon": "task_alt"
+        },
+        {
+          "number": 50,
+          "suffix": "+",
+          "label": {
+            "tr": "Mutlu Müşteri",
+            "en": "Happy Customers",
+            "ar": "عميل سعيد"
+          },
+          "icon": "sentiment_satisfied"
+        },
+        {
+          "number": 10,
+          "suffix": "+",
+          "label": {
+            "tr": "Yıllık Deneyim",
+            "en": "Years of Experience",
+            "ar": "سنوات من الخبرة"
+          },
+          "icon": "workspace_premium"
+        },
+        {
+          "number": 24,
+          "suffix": "/7",
+          "label": {
+            "tr": "Destek",
+            "en": "Support",
+            "ar": "الدعم"
+          },
+          "icon": "support_agent"
+        }
+      ],
+      "index": 4
+    },
+    {
+      "name": "Ekip 1",
+      "path": "team-1",
+      "local": "body",
+      "category": "team",
+      "id": "k8tm01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "badge": {
+          "tr": "Ekip",
+          "en": "Team",
+          "ar": "الفريق"
+        },
+        "title": {
+          "tr": "Danışmanlarımız",
+          "en": "Our advisors",
+          "ar": "مستشارونا"
+        },
+        "description": {
+          "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
+          "en": "Our experienced team is here to add value to your projects.",
+          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك."
+        },
+        "accentText": "#ffffff"
+      },
+      "version": "1.0.0",
+      "icon": "groups",
+      "data": [
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Kurucu / CEO",
+            "en": "Founder / CEO",
+            "ar": "المؤسس / الرئيس التنفيذي"
+          },
+          "bio": {
+            "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
+            "en": "Strategy and management with 10+ years of industry experience.",
+            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع."
+          },
+          "img": ""
+        },
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Tasarım Direktörü",
+            "en": "Design Director",
+            "ar": "مدير التصميم"
+          },
+          "bio": {
+            "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
+            "en": "Brand identity and user experience design.",
+            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم."
+          },
+          "img": ""
+        },
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Yazılım Geliştirici",
+            "en": "Software Developer",
+            "ar": "مطوّر برمجيات"
+          },
+          "bio": {
+            "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
+            "en": "Scalable solutions with modern web technologies.",
+            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة."
+          },
+          "img": ""
+        }
+      ],
+      "index": 5
+    },
+    {
+      "name": "Footer 3",
+      "path": "footer-3",
+      "local": "footer",
+      "category": "footer",
+      "id": "k8ft01",
+      "desing": {
+        "showlang": true,
+        "bgcolor": "var(--mx-site-surface-2, #f1f1ee)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "minimal_design": true,
+        "social_media": false,
+        "logo_maxh": "60px",
+        "logo_plate": false,
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "data": [],
+      "index": 6
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "k8ct01",
+      "desing": {
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "تواصل معنا"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+90",
+          "url": ""
+        },
+        {
+          "icon": "email",
+          "text": ""
+        },
+        {
+          "icon": "map",
+          "text": ""
+        }
+      ],
+      "index": 7
+    },
+    {
+      "name": "Maps",
+      "path": "map-2",
+      "local": "body",
+      "category": "map",
+      "id": "k8mp01",
+      "desing": {
+        "height": "200px",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "margin": "0px 0px 0px 0px"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "index": 8
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "id": "k8in01",
+      "desing": {
+        "name": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        },
+        "description": {
+          "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
+          "en": "This page is a theme sample; its content is filled in during demo production.",
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Our Vision",
+          "ar": "رؤيتنا"
+        },
+        "spot2": {
+          "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
+          "en": "To lead our industry with innovative approaches.",
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+        },
+        "icon2": "visibility",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Our Mission",
+          "ar": "مهمتنا"
+        },
+        "spot3": {
+          "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+          "en": "Deliver needed solutions quickly and transparently.",
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+        },
+        "icon3": "flag",
+        "img": "index.jpg",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate",
+          "ar": "المؤسسة"
+        },
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "business",
+      "index": 9
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "path": "ilan-filtre",
+      "local": "body",
+      "category": "page-list",
+      "id": "k8il02",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Emlak İlanları",
+          "en": "Property Listings",
+          "ar": "إعلانات العقارات"
+        },
+        "subtitle": {
+          "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
+          "en": "Filter, sort and compare properties for sale and for rent.",
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+        },
+        "searchLabel": {
+          "tr": "İlan ara",
+          "en": "Search listings",
+          "ar": "ابحث في الإعلانات"
+        },
+        "searchPlaceholder": {
+          "tr": "Semt veya ilan başlığı…",
+          "en": "District or listing title…",
+          "ar": "الحي أو عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "İşlem türü",
+          "en": "Deal type",
+          "ar": "نوع الصفقة"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Emlak türü",
+          "en": "Property type",
+          "ar": "نوع العقار"
+        },
+        "roomsTitle": {
+          "tr": "Oda sayısı",
+          "en": "Rooms",
+          "ar": "عدد الغرف"
+        },
+        "m2Title": {
+          "tr": "Alan (m²)",
+          "en": "Area (m²)",
+          "ar": "المساحة (م²)"
+        },
+        "priceTitle": {
+          "tr": "Fiyat",
+          "en": "Price",
+          "ar": "السعر"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Alan: büyükten küçüğe",
+          "en": "Area: large to small",
+          "ar": "المساحة: من الأكبر إلى الأصغر"
+        },
+        "sortM2Asc": {
+          "tr": "Alan: küçükten büyüğe",
+          "en": "Area: small to large",
+          "ar": "المساحة: من الأصغر إلى الأكبر"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} ilan bulundu",
+            "other": "{n} ilan bulundu"
+          },
+          "en": {
+            "one": "{n} listing found",
+            "other": "{n} listings found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على إعلانات",
+            "one": "تم العثور على إعلان واحد",
+            "two": "تم العثور على إعلانين",
+            "few": "تم العثور على {n} إعلانات",
+            "many": "تم العثور على {n} إعلانًا",
+            "other": "تم العثور على {n} إعلان"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Yetki belgesi no",
+          "en": "Authorization certificate no.",
+          "ar": "رقم شهادة التفويض"
+        },
+        "permitDemo": {
+          "tr": "Yetki belgesi no: örnek ilan (DEMO)",
+          "en": "Authorization no.: sample listing (DEMO)",
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+        },
+        "perMonth": {
+          "tr": "/ ay",
+          "en": "/ month",
+          "ar": "/ شهريًا"
+        },
+        "details": {
+          "tr": "İlan detayı",
+          "en": "View listing",
+          "ar": "تفاصيل الإعلان"
+        },
+        "dateLabel": {
+          "tr": "İlan tarihi",
+          "en": "Listed on",
+          "ar": "تاريخ الإعلان"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
+          "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+        }
+      },
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price",
+          "district"
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        },
+        "listings": [
+          {
+            "id": "ilan-001",
+            "title": {
+              "tr": "Deniz manzaralı 3+1 daire",
+              "en": "3+1 apartment with sea view",
+              "ar": "شقة 3+1 بإطلالة بحرية"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "3+1",
+            "m2": 142,
+            "price": 6850000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Kadıköy",
+              "en": "Kadikoy",
+              "ar": "قاضي كوي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0001",
+            "url": "",
+            "date": "2026-10-24",
+            "badge": {
+              "tr": "Yeni",
+              "en": "New",
+              "ar": "جديد"
+            }
+          },
+          {
+            "id": "ilan-002",
+            "title": {
+              "tr": "Bahçe katı 2+1 kiralık daire",
+              "en": "2+1 garden-floor apartment for rent",
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 95,
+            "price": 38000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Ankara",
+              "en": "Ankara",
+              "ar": "أنقرة"
+            },
+            "district": {
+              "tr": "Çankaya",
+              "en": "Cankaya",
+              "ar": "تشانكايا"
+            },
+            "img": [],
+            "permitNo": "DEMO-06-0002",
+            "url": "",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "ilan-003",
+            "title": {
+              "tr": "Havuzlu müstakil villa",
+              "en": "Detached villa with pool",
+              "ar": "فيلا مستقلة مع مسبح"
+            },
+            "deal": "sale",
+            "type": "villa",
+            "rooms": "5+2",
+            "m2": 320,
+            "price": 18900000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Muğla",
+              "en": "Mugla",
+              "ar": "موغلا"
+            },
+            "district": {
+              "tr": "Bodrum",
+              "en": "Bodrum",
+              "ar": "بودروم"
+            },
+            "img": [],
+            "permitNo": "DEMO-48-0003",
+            "url": "",
+            "date": "2026-10-18"
+          },
+          {
+            "id": "ilan-004",
+            "title": {
+              "tr": "Eşyalı 1+1 kiralık daire",
+              "en": "Furnished 1+1 apartment for rent",
+              "ar": "شقة 1+1 مفروشة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "1+1",
+            "m2": 55,
+            "price": 22500,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Karşıyaka",
+              "en": "Karsiyaka",
+              "ar": "قارشيياكا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0004",
+            "url": "",
+            "date": "2026-10-15"
+          },
+          {
+            "id": "ilan-005",
+            "title": {
+              "tr": "İmarlı satılık arsa",
+              "en": "Zoned plot for sale",
+              "ar": "أرض مخططة للبيع"
+            },
+            "deal": "sale",
+            "type": "arsa",
+            "rooms": "",
+            "m2": 600,
+            "price": 3200000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Urla",
+              "en": "Urla",
+              "ar": "أورلا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0005",
+            "url": "",
+            "date": "2026-10-11"
+          },
+          {
+            "id": "ilan-006",
+            "title": {
+              "tr": "Cadde üstü kiralık dükkân",
+              "en": "Street-front shop for rent",
+              "ar": "محل على الشارع الرئيسي للإيجار"
+            },
+            "deal": "rent",
+            "type": "isyeri",
+            "rooms": "",
+            "m2": 120,
+            "price": 65000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Şişli",
+              "en": "Sisli",
+              "ar": "شيشلي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0006",
+            "url": "",
+            "date": "2026-10-08"
+          },
+          {
+            "id": "ilan-007",
+            "title": {
+              "tr": "Site içinde 2+1 daire",
+              "en": "2+1 apartment in a gated complex",
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 100,
+            "price": 4150000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Bursa",
+              "en": "Bursa",
+              "ar": "بورصة"
+            },
+            "district": {
+              "tr": "Nilüfer",
+              "en": "Nilufer",
+              "ar": "نيلوفر"
+            },
+            "img": [],
+            "permitNo": "DEMO-16-0007",
+            "url": "",
+            "date": "2026-10-05"
+          },
+          {
+            "id": "ilan-008",
+            "title": {
+              "tr": "Merkezi konumda 1+1 rezidans",
+              "en": "1+1 residence in a central location",
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+            },
+            "deal": "sale",
+            "type": "rezidans",
+            "rooms": "1+1",
+            "m2": 70,
+            "price": 5300000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Beşiktaş",
+              "en": "Besiktas",
+              "ar": "بشيكتاش"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0008",
+            "url": "",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      "index": 10
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#elektrik-2",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "8e60yg",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 11
+    },
+    {
+      "name": "Menü 3",
+      "path": "menu-3",
+      "desing": {
+        "color": "#0B1324",
+        "logosize": 230,
+        "logosizemobil": 160,
+        "menuToggleAria": {
+          "tr": "Menüyü aç/kapat",
+          "en": "Open or close menu",
+          "ar": "فتح القائمة أو إغلاقها"
+        },
+        "menuCloseAria": {
+          "tr": "Menüyü kapat",
+          "en": "Close menu",
+          "ar": "إغلاق القائمة"
+        },
+        "logo_acik": "logo-acik.svg",
+        "logo_h": "44px",
+        "cta": {
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرض سعر"
+        },
+        "cta_url": "teklif-al"
+      },
+      "local": "header",
+      "data": [
+        {
+          "name": {
+            "tr": "Arıza hattı",
+            "en": "Fault line",
+            "ar": "خط الأعطال"
+          },
+          "spot": "+90 342 041 07 07",
+          "icon": "call",
+          "url": "tel:+903420410707",
+          "spotcolor": "#1D4ED8",
+          "iconcolor": "#1D4ED8"
+        },
+        {
+          "name": {
+            "tr": "Bize yazın",
+            "en": "Email us",
+            "ar": "راسلنا"
+          },
+          "spot": "servis@fazelektrik.example",
+          "icon": "mail",
+          "url": "mailto:servis@fazelektrik.example",
+          "spotcolor": "#334155",
+          "iconcolor": "#1D4ED8"
+        },
+        {
+          "name": {
+            "tr": "Saha ekibi",
+            "en": "Field crews",
+            "ar": "الفرق الميدانية"
+          },
+          "spot": {
+            "tr": "Her gün 07:00 – 23:00",
+            "en": "Daily 07:00 – 23:00",
+            "ar": "يوميًا 07:00 – 23:00"
+          },
+          "icon": "schedule",
+          "url": "tel:+903420410707",
+          "spotcolor": "#334155",
+          "iconcolor": "#1D4ED8"
+        }
+      ],
+      "category": "menu",
+      "description": "Gelişmiş iletişim bilgili header menü modülü. Logo, sayfa linkleri ve üst kısımda telefon, email, adres bilgileri gösterir. 7 farklı projede kullanılır: lojistik, restoran, kurumsal, sağlık ve üretim sektörlerinde. Icon'lu iletişim kartları, responsive logo boyutu ve renk özelleştirme sistemi içerir.",
+      "version": "1.0.0",
+      "icon": "menu",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "eg7uh0",
+      "index": 12
+    },
+    {
+      "name": "Teklif Sihirbazı Hero — açılışta 3 adımlı teklif formu, dikey ilerleme rayı",
+      "description": "Üstte etiket, h1, metin ve düğmeler; altında geniş sihirbaz kartı: marka renkli dikey rayda numaralı adım işaretleri (ilerleme çizgisi dolar) ve canlı talep özeti, yanında adım içeriği — 1) hizmet türü (data maddeleri ikonlu seçim karoları) 2) ölçü/kapsam (sayı + birim, kapsam çipleri) 3) iletişim. Önceki/sonraki adımda alan doğrulaması; gönderim WhatsApp / e-posta / formAction. Kanal yoksa yalnız madde listesi basılır; JS yokken tüm adımlar alt alta açık. Hero ailesinin hiçbirinde form yoktur; acilis-hizmet-secici hizmeti bağlantıyla seçtirir, bu modül seçimi teklif talebine çevirir. randevu/teklif formlarından farkı: h1'li açılış + dikey ilerleme rayı (mobilde yatay) ve ikonlu hizmet karoları; tarih/saat yok, ölçü-kapsam adımı var. Başlık h1, ilk görsel eager. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "request_quote",
+      "category": "hero",
+      "subCategory": "quote-wizard",
+      "tags": [
+        "hero",
+        "wizard",
+        "quote",
+        "form",
+        "steps",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1240px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Elektrik servisi · Gaziantep",
+          "en": "Electrical service · Gaziantep",
+          "ar": "خدمة كهربائية · غازي عنتاب"
+        },
+        "baslik": {
+          "tr": "Üç adımda elektrik teklifi",
+          "en": "An electrical quote in three steps",
+          "ar": "عرض سعر كهربائي في ثلاث خطوات"
+        },
+        "metin": {
+          "tr": "İşi seçin, alanı ve yapı türünü yazın, iletişim bilgisini bırakın; aynı gün yazılı fiyat gelsin. Form demodur, veri saklanmaz.",
+          "en": "Pick the job, enter the area and building type, leave your contact details; get a written price the same day. The form is a demo and stores no data.",
+          "ar": "اختر العمل، وأدخل المساحة ونوع المبنى، واترك بيانات التواصل؛ لتصلك تسعيرة مكتوبة في اليوم نفسه. النموذج تجريبي ولا يحفظ البيانات."
+        },
+        "img": "enerji-pano.webp",
+        "img2": "",
+        "video": "",
+        "poster": "",
+        "alt": {
+          "tr": "Elektrik panosunda çalışan teknisyen",
+          "en": "Technician working on an electrical panel",
+          "ar": "فني يعمل على لوحة كهربائية"
+        },
+        "cta_ad": {
+          "tr": "Hizmetler",
+          "en": "Services",
+          "ar": "الخدمات"
+        },
+        "cta_url": "hizmetler",
+        "cta2_ad": {
+          "tr": "Kapsama sorgusu",
+          "en": "Coverage check",
+          "ar": "التحقق من التغطية"
+        },
+        "cta2_url": "iletisim",
+        "rozet_ikon": "",
+        "rozet_deger": "",
+        "rozet_metin": "",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "whatsapp": "903420410707",
+        "eposta": "servis@fazelektrik.example",
+        "formAction": "",
+        "adim1Ad": {
+          "tr": "İş türü",
+          "en": "Job type",
+          "ar": "نوع العمل"
+        },
+        "olcuAd": {
+          "tr": "Alan",
+          "en": "Area",
+          "ar": "المساحة"
+        },
+        "olcuBirim": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "kapsamAd": {
+          "tr": "Yapı türü",
+          "en": "Building type",
+          "ar": "نوع المبنى"
+        },
+        "kapsamlar": [
+          {
+            "tr": "Daire",
+            "en": "Flat",
+            "ar": "شقة"
+          },
+          {
+            "tr": "Müstakil ev",
+            "en": "Detached house",
+            "ar": "منزل مستقل"
+          },
+          {
+            "tr": "Dükkân / ofis",
+            "en": "Shop / office",
+            "ar": "محل / مكتب"
+          },
+          {
+            "tr": "Atölye",
+            "en": "Workshop",
+            "ar": "ورشة"
+          }
+        ],
+        "adim3Ad": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "التواصل"
+        },
+        "gonderAd": {
+          "tr": "Teklif iste",
+          "en": "Request a quote",
+          "ar": "اطلب عرض سعر"
+        },
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "yukseklik": 80,
+        "eyebrow": {
+          "tr": "Elektrik servisi · Gaziantep",
+          "en": "Electrical service · Gaziantep",
+          "ar": "خدمة كهربائية · غازي عنتاب"
+        },
+        "title": {
+          "tr": "Üç adımda elektrik teklifi",
+          "en": "An electrical quote in three steps",
+          "ar": "عرض سعر كهربائي في ثلاث خطوات"
+        },
+        "cta1": {
+          "tr": "Hizmetler",
+          "en": "Services",
+          "ar": "الخدمات"
+        },
+        "cta1_url": "hizmetler",
+        "cta2": {
+          "tr": "Arıza hattı",
+          "en": "Fault line",
+          "ar": "خط الأعطال"
+        },
+        "scroll_label": {
+          "tr": "Aşağı kaydır",
+          "en": "Scroll down",
+          "ar": "انزل للأسفل"
+        }
+      },
+      "data": [
+        {
+          "ikon": "electrical_services",
+          "metin": {
+            "tr": "Arıza / acil",
+            "en": "Fault / emergency",
+            "ar": "عطل / طارئ"
+          },
+          "deger": {
+            "tr": "Aynı gün",
+            "en": "Same day",
+            "ar": "في اليوم نفسه"
+          }
+        },
+        {
+          "ikon": "electric_meter",
+          "metin": {
+            "tr": "Pano yenileme",
+            "en": "Panel replacement",
+            "ar": "تجديد اللوحة"
+          },
+          "deger": {
+            "tr": "1 gün",
+            "en": "1 day",
+            "ar": "يوم واحد"
+          }
+        },
+        {
+          "ikon": "cable",
+          "metin": {
+            "tr": "Komple tesisat",
+            "en": "Full rewiring",
+            "ar": "تمديدات كاملة"
+          },
+          "deger": {
+            "tr": "Keşifli",
+            "en": "With survey",
+            "ar": "مع معاينة"
+          }
+        },
+        {
+          "ikon": "lightbulb",
+          "metin": {
+            "tr": "Aydınlatma",
+            "en": "Lighting",
+            "ar": "الإنارة"
+          },
+          "deger": {
+            "tr": "LED",
+            "en": "LED",
+            "ar": "LED"
+          }
+        },
+        {
+          "ikon": "health_and_safety",
+          "metin": {
+            "tr": "Topraklama ölçümü",
+            "en": "Earthing test",
+            "ar": "قياس التأريض"
+          },
+          "deger": {
+            "tr": "Tutanaklı",
+            "en": "With record",
+            "ar": "مع محضر"
+          }
+        },
+        {
+          "ikon": "ev_station",
+          "metin": {
+            "tr": "Şarj ünitesi",
+            "en": "EV charger",
+            "ar": "شاحن سيارة"
+          },
+          "deger": {
+            "tr": "7–22 kW",
+            "en": "7–22 kW",
+            "ar": "7–22 كيلوواط"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "deger": "sayı/değer (ör. 1.200+, dil sözlüğü olabilir)",
+          "metin": "madde metni (dil sözlüğü)",
+          "img": "madde görseli (mozaik yerleşimlerde)",
+          "url": "madde bağlantısı"
+        }
+      },
+      "id": "s73b52",
+      "path": "teklif-sihirbazi-hero",
+      "local": "body",
+      "index": 13
+    },
+    {
+      "name": "Sayaç Kronometre — ibreli kadran + dijital ekran + tur listesi",
+      "description": "Solda kronometre: 60 çentikli kadran, oran kadar dönen ibre ve yay, sürekli dönen saniye ibresi, altta dijital ekran (seçili turun rakamı + etiketi). Sağda tur listesi (01 · etiket · rakam); tura dokununca ibre o turun oranına yaylanarak döner, ekran değişir; ↑/↓ ile gezilir. JS yoksa ilk tur ekranda, tüm turlar listede. sayac-gosterge yarım yay hız göstergeleri, sayac-halka her rakama ayrı halka çizer; bu modül TEK bir kadranı tur listesiyle sürer (ibre + saniye ibresi + dijital ekran + seçilebilir turlar) — elektrikçi «müdahale süresi» kronometre dili. Sayılar sayfa diliyle biçimlenir (Intl), metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "timer",
+      "category": "stats",
+      "subCategory": "stopwatch",
+      "tags": [
+        "stats",
+        "stopwatch",
+        "dial",
+        "laps",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Kronometre",
+          "en": "Stopwatch",
+          "ar": "ساعة الإيقاف"
+        },
+        "baslik": {
+          "tr": "Çağrıdan çözüme süreler",
+          "en": "From call to fix, timed",
+          "ar": "من الاتصال إلى الإصلاح بالتوقيت"
+        },
+        "metin": {
+          "tr": "Kurgusal demo verileri; gerçek ölçüm değildir.",
+          "en": "Fictional demo figures; not real measurements.",
+          "ar": "بيانات تجريبية افتراضية وليست قياسات حقيقية."
+        },
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "title": {
+          "tr": "Sigortadan şarj ünitesine",
+          "en": "From fuses to EV chargers",
+          "ar": "من المصهرات إلى شواحن السيارات"
+        },
+        "description": {
+          "tr": "Kurgusal demo verileri.",
+          "en": "Fictional demo figures.",
+          "ar": "بيانات تجريبية افتراضية."
+        }
+      },
+      "data": [
+        {
+          "sayi": 38,
+          "sonek": {
+            "tr": " dk",
+            "en": " min",
+            "ar": " دقيقة"
+          },
+          "etiket": {
+            "tr": "Ortalama varış süresi",
+            "en": "Average arrival time",
+            "ar": "متوسط وقت الوصول"
+          },
+          "metin": {
+            "tr": "Şehir merkezinde çağrıdan kapıya.",
+            "en": "From call to door in the city centre.",
+            "ar": "من الاتصال إلى الباب في مركز المدينة."
+          },
+          "ikon": "timer",
+          "max": 60
+        },
+        {
+          "sayi": 94,
+          "onek": {
+            "tr": "%",
+            "en": "",
+            "ar": ""
+          },
+          "sonek": {
+            "tr": "",
+            "en": "%",
+            "ar": "٪"
+          },
+          "etiket": {
+            "tr": "İlk ziyarette çözüm",
+            "en": "Fixed on the first visit",
+            "ar": "إصلاح من الزيارة الأولى"
+          },
+          "metin": {
+            "tr": "Araçta yedek parça stoğu sayesinde.",
+            "en": "Thanks to spare parts carried in the van.",
+            "ar": "بفضل قطع الغيار المحمولة في السيارة."
+          },
+          "ikon": "task_alt",
+          "max": 100
+        },
+        {
+          "sayi": 4,
+          "sonek": {
+            "tr": " sa",
+            "en": " h",
+            "ar": " ساعات"
+          },
+          "etiket": {
+            "tr": "Pano değişim süresi",
+            "en": "Panel replacement time",
+            "ar": "مدة تبديل اللوحة"
+          },
+          "metin": {
+            "tr": "Daire panosu için ortalama.",
+            "en": "Average for a flat panel.",
+            "ar": "متوسط لوحة الشقة."
+          },
+          "ikon": "electric_meter",
+          "max": 8
+        },
+        {
+          "sayi": 15,
+          "sonek": {
+            "tr": " dk",
+            "en": " min",
+            "ar": " دقيقة"
+          },
+          "etiket": {
+            "tr": "Teklif yanıtı",
+            "en": "Quote reply",
+            "ar": "الرد على عرض السعر"
+          },
+          "metin": {
+            "tr": "Mesai içinde sihirbaz talebine ilk dönüş.",
+            "en": "First reply to a wizard request during office hours.",
+            "ar": "أول رد على طلب المعالج خلال ساعات العمل."
+          },
+          "ikon": "request_quote",
+          "max": 60
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "sayi": "sayı (zorunlu; 1200 · \"4.9\")",
+          "onek": "önek (dil sözlüğü; ör. «%»)",
+          "sonek": "sonek (dil sözlüğü; ör. «+», «/5»)",
+          "etiket": "etiket (dil sözlüğü, zorunlu)",
+          "metin": "kısa not (dil sözlüğü)",
+          "ikon": "Material Symbols adı",
+          "ondalik": "ondalık basamak (yoksa sayıdan)",
+          "max": "oran tavanı (halka/çubuk/dolgu; yoksa % → 100, değilse listedeki en büyük)"
+        }
+      },
+      "id": "9ea1zx",
+      "path": "sayac-kronometre",
+      "local": "body",
+      "index": 14
+    },
+    {
+      "name": "Değer Doku Karo — malzeme dokulu bento karoları",
+      "description": "Değerler malzeme dokulu karolardan (ahşap damar, keten örgü, mermer, fırçalı metal — CSS ile, tema renginden; `img` varsa gerçek doku fotoğrafı) oluşan bir bento: ilk karo 2×2. Üzerine gelince doku büyür; dokununca / Enter ile karo genişleyip açıklamanın tamamını gösterir. hizmet-bento/deger-cam düz zeminli hücrelerdir; burada her karonun zemini bir malzeme dokusudur, etiket kartı dokunun üstünde durur ve karo tıklanınca ızgarada büyür (cevir → 2×2). Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "texture",
+      "category": "values",
+      "subCategory": "texture-bento",
+      "tags": [
+        "values",
+        "bento",
+        "texture",
+        "material",
+        "expand",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Hizmetler",
+          "en": "Services",
+          "ar": "الخدمات"
+        },
+        "baslik": {
+          "tr": "Sigortadan şarj ünitesine",
+          "en": "From fuses to EV chargers",
+          "ar": "من المصهرات إلى شواحن السيارات"
+        },
+        "metin": {
+          "tr": "Karoya dokunun, işin kapsamını okuyun.",
+          "en": "Tap a tile to read the scope of the job.",
+          "ar": "المس البطاقة لقراءة نطاق العمل."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": {
+          "tr": "Hizmetler",
+          "en": "Services",
+          "ar": "الخدمات"
+        },
+        "title": {
+          "tr": "Sigortadan şarj ünitesine",
+          "en": "From fuses to EV chargers",
+          "ar": "من المصهرات إلى شواحن السيارات"
+        },
+        "description": {
+          "tr": "Konut, dükkân ve atölye için ölçülü, belgeli elektrik işleri.",
+          "en": "Measured, documented electrical work for homes, shops and workshops.",
+          "ar": "أعمال كهربائية مدروسة وموثّقة للمنازل والمحلات والورش."
+        }
+      },
+      "data": [
+        {
+          "ikon": "electrical_services",
+          "etiket": {
+            "tr": "7/24",
+            "en": "24/7",
+            "ar": "على مدار الساعة"
+          },
+          "baslik": {
+            "tr": "Arıza ve acil müdahale",
+            "en": "Faults and emergency call-outs",
+            "ar": "الأعطال والتدخل العاجل"
+          },
+          "metin": {
+            "tr": "Sigorta atması, kısa devre ve kesintide en yakın ekip yönlendirilir; önce hat güvenli biçimde kapatılır, sonra arıza noktası ölçülerek bulunur.",
+            "en": "For tripping fuses, short circuits and outages the nearest crew is dispatched; the circuit is safely isolated first, then the fault is located by measurement.",
+            "ar": "عند انقطاع المصهرات أو حدوث دائرة قصيرة أو انقطاع التيار نرسل أقرب فريق؛ نفصل الخط بأمان أولًا ثم نحدد موضع العطل بالقياس."
+          },
+          "img": "/img/enerji-pano.webp",
+          "url": "teklif-al"
+        },
+        {
+          "ikon": "electric_meter",
+          "etiket": {
+            "tr": "1 gün",
+            "en": "1 day",
+            "ar": "يوم واحد"
+          },
+          "baslik": {
+            "tr": "Pano yenileme",
+            "en": "Panel replacement",
+            "ar": "تجديد اللوحات"
+          },
+          "metin": {
+            "tr": "Eski sigorta kutusu sökülür; etiketli, kaçak akım korumalı yeni pano tek günde devreye alınır.",
+            "en": "The old fuse box is removed; a new labelled panel with residual-current protection is commissioned in a single day.",
+            "ar": "يُفك صندوق المصهرات القديم وتُشغَّل لوحة جديدة موسومة بحماية من التيار المتسرب في يوم واحد."
+          },
+          "url": "teklif-al"
+        },
+        {
+          "ikon": "cable",
+          "etiket": {
+            "tr": "Keşifli",
+            "en": "Surveyed",
+            "ar": "بمعاينة"
+          },
+          "baslik": {
+            "tr": "Komple tesisat",
+            "en": "Full rewiring",
+            "ar": "تمديدات كاملة"
+          },
+          "metin": {
+            "tr": "Daire ve dükkânlarda kablo kesitleri hesaplanır, priz ve anahtar hattı baştan çekilir.",
+            "en": "Cable sizes are calculated and sockets and switches are rewired from scratch in flats and shops.",
+            "ar": "تُحسب مقاطع الكابلات ويُعاد تمديد المقابس والمفاتيح من البداية في الشقق والمحلات."
+          },
+          "url": "teklif-al"
+        },
+        {
+          "ikon": "lightbulb",
+          "etiket": {
+            "tr": "LED",
+            "en": "LED",
+            "ar": "LED"
+          },
+          "baslik": {
+            "tr": "Aydınlatma",
+            "en": "Lighting",
+            "ar": "الإنارة"
+          },
+          "metin": {
+            "tr": "LED dönüşümü, spot ve bahçe aydınlatması, hareket sensörlü merdiven lambaları.",
+            "en": "LED upgrades, spotlights, garden lighting and motion-sensor stair lights.",
+            "ar": "التحويل إلى LED والإضاءة الموضعية وإنارة الحدائق وأضواء السلالم بحساس حركة."
+          },
+          "url": "teklif-al"
+        },
+        {
+          "ikon": "health_and_safety",
+          "etiket": {
+            "tr": "Tutanak",
+            "en": "Record",
+            "ar": "محضر"
+          },
+          "baslik": {
+            "tr": "Topraklama ve ölçüm",
+            "en": "Earthing and testing",
+            "ar": "التأريض والقياس"
+          },
+          "metin": {
+            "tr": "Topraklama direnci ölçülür, kaçak akım rölesi test edilir; sonuçlar yazılı tutanakla teslim edilir.",
+            "en": "Earth resistance is measured and the RCD is tested; results are handed over in a written record.",
+            "ar": "تُقاس مقاومة التأريض ويُختبر قاطع التيار المتسرب، وتُسلَّم النتائج في محضر مكتوب."
+          },
+          "url": "teklif-al"
+        },
+        {
+          "ikon": "ev_station",
+          "etiket": {
+            "tr": "7–22 kW",
+            "en": "7–22 kW",
+            "ar": "7–22 كيلوواط"
+          },
+          "baslik": {
+            "tr": "Şarj ünitesi",
+            "en": "EV charger",
+            "ar": "شاحن السيارات"
+          },
+          "metin": {
+            "tr": "Garaj ve otoparklar için ayrı hat, koruma ve elektrikli araç şarj ünitesi montajı.",
+            "en": "A dedicated line, protection and EV charger installation for garages and car parks.",
+            "ar": "خط مستقل وحماية وتركيب شاحن سيارات كهربائية للمرائب والمواقف."
+          },
+          "url": "teklif-al"
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ikon": "Material Symbols adı",
+          "baslik": "dil sözlüğü (zorunlu)",
+          "metin": "dil sözlüğü",
+          "etiket": "dil sözlüğü (küçük üst etiket)",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı (kartın tamamı tıklanır)"
+        }
+      },
+      "id": "w1n5gm",
+      "path": "deger-doku-karo",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": "Zaman Kuruluş Sürgüsü — yıl kaydırıcısıyla tek dönem sahnesi",
+      "description": "«Kuruluştan bugüne» kronolojisi: input[type=range] kaydırıcı ve altında yıl cetveli (çentikler tıklanır, geçilen yıllar dolar); seçilen yılın tek büyük dönem kartı (dev yıl, ikon, başlık, metin, varsa görsel) geçiş hareketiyle değişir, «3 / 6» konumu. Ok/Home/End/PageUp-Down yerel klavye; RTL'de kaydırıcı ve dolgu ters yönde. JS yokken tüm dönemler alt alta tam liste. zaman-sekme-yil yıl sekmeleri (role=tab) ve panellerdir, zaman-ray/film-seridi yatay kaydırma şerididir; bu modül sürekli bir yıl kaydırıcısıdır (input range + çentikli cetvel + dolgu) ve aynı anda yalnız tek dönem sahnesi gösterir — kronoloji sürüklenerek okunur. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "linear_scale",
+      "category": "timeline",
+      "subCategory": "range-slider",
+      "tags": [
+        "timeline",
+        "range",
+        "slider",
+        "chronology",
+        "single-card",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Kuruluştan bugüne",
+          "en": "From founding to today",
+          "ar": "من التأسيس إلى اليوم"
+        },
+        "baslik": {
+          "tr": "Tek araçtan beş saha ekibine",
+          "en": "From one van to five field crews",
+          "ar": "من سيارة واحدة إلى خمسة فرق ميدانية"
+        },
+        "metin": {
+          "tr": "Sürgüyü kaydırın; kurgusal kronoloji.",
+          "en": "Move the slider; a fictional timeline.",
+          "ar": "حرّك المؤشر؛ تسلسل زمني افتراضي."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": {
+          "tr": "Nasıl çalışırız?",
+          "en": "How we work",
+          "ar": "كيف نعمل؟"
+        },
+        "title": {
+          "tr": "Dört adımda süreç",
+          "en": "Process in four steps",
+          "ar": "العملية في أربع خطوات"
+        },
+        "description": {
+          "tr": "İlk görüşmeden teslimata aynı akış.",
+          "en": "The same flow, from first meeting to handover.",
+          "ar": "نفس التيار من أول لقاء إلى التسليم."
+        }
+      },
+      "data": [
+        {
+          "etiket": "2012",
+          "ikon": "directions_car",
+          "baslik": {
+            "tr": "Tek araçla başlangıç",
+            "en": "Starting with one van",
+            "ar": "البداية بسيارة واحدة"
+          },
+          "metin": {
+            "tr": "İki usta, bir servis aracı ve Şahinbey'de küçük bir depo.",
+            "en": "Two electricians, one service van and a small depot in Sahinbey.",
+            "ar": "كهربائيان وسيارة خدمة ومستودع صغير في شاهين بي."
+          }
+        },
+        {
+          "etiket": "2015",
+          "ikon": "electric_meter",
+          "baslik": {
+            "tr": "Pano atölyesi",
+            "en": "Panel workshop",
+            "ar": "ورشة اللوحات"
+          },
+          "metin": {
+            "tr": "Panolar artık atölyede hazırlanıp sahada tek günde takılıyor.",
+            "en": "Panels are now built in the workshop and fitted on site in a day.",
+            "ar": "تُجهَّز اللوحات الآن في الورشة وتُركَّب في الموقع خلال يوم."
+          },
+          "img": "/img/sanayi-depo.webp"
+        },
+        {
+          "etiket": "2018",
+          "ikon": "support_agent",
+          "baslik": {
+            "tr": "Nöbet hattı",
+            "en": "Duty line",
+            "ar": "خط المناوبة"
+          },
+          "metin": {
+            "tr": "Gece arızaları için tek numaralı nöbet hattı kuruldu.",
+            "en": "A single-number duty line was set up for night-time faults.",
+            "ar": "أُنشئ خط مناوبة برقم واحد للأعطال الليلية."
+          }
+        },
+        {
+          "etiket": "2021",
+          "ikon": "ev_station",
+          "baslik": {
+            "tr": "Şarj ünitesi ekibi",
+            "en": "EV charger crew",
+            "ar": "فريق شواحن السيارات"
+          },
+          "metin": {
+            "tr": "Elektrikli araç şarj montajı için ayrı ekip ve eğitim.",
+            "en": "A dedicated, trained crew for EV charger installation.",
+            "ar": "فريق مستقل ومدرَّب لتركيب شواحن السيارات الكهربائية."
+          },
+          "img": "/img/enerji-sarj.webp"
+        },
+        {
+          "etiket": "2024",
+          "ikon": "fact_check",
+          "baslik": {
+            "tr": "Ölçüm tutanağı standardı",
+            "en": "Test record standard",
+            "ar": "معيار محضر القياس"
+          },
+          "metin": {
+            "tr": "Her işin sonunda yazılı topraklama ve kaçak akım tutanağı.",
+            "en": "A written earthing and RCD record at the end of every job.",
+            "ar": "محضر مكتوب للتأريض والتيار المتسرب في نهاية كل عمل."
+          }
+        },
+        {
+          "etiket": "2026",
+          "ikon": "groups",
+          "baslik": {
+            "tr": "Beş saha ekibi",
+            "en": "Five field crews",
+            "ar": "خمسة فرق ميدانية"
+          },
+          "metin": {
+            "tr": "Altı ilçede 07:00–23:00 arası saha ekibi, online teklif sihirbazı.",
+            "en": "Field crews in six districts from 07:00 to 23:00 and an online quote wizard.",
+            "ar": "فرق ميدانية في ست مناطق من 07:00 إلى 23:00 ومعالج عروض أسعار عبر الإنترنت."
+          },
+          "img": "/img/sanayi-ekip-saha.webp"
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "etiket": "yıl / tarih / dönem (dil sözlüğü ya da düz metin)",
+          "baslik": "dil sözlüğü (zorunlu)",
+          "metin": "dil sözlüğü",
+          "ikon": "Material Symbols adı",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı"
+        }
+      },
+      "id": "5k36v9",
+      "path": "zaman-kurulus-surgu",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "Yorum Vaka Metriği — müşteri sözü ve yanında dev sonuç sayısı",
+      "description": "Her yorum bir vaka bileti: bir yanda vurgu zeminde dev sonuç sayısı (`metrik` + `metrikOn`/`metrikSon` ek + `metrikMetin` etiketi, sayfa diliyle biçim, görünür olunca sayar), öbür yanda başlık, alıntı ve kişi. İlk vaka tam genişlik; sayı yoksa firma logosu ya da monogram. Sayısal kanıt + insan sözü aynı kartta: yorum-puan-dagilim puanları toplar, burada her yorumun kendi iş sonucu (ör. %240 trafik) sayaçla öne çıkar; yorum-bento'nun boyut hiyerarşisi yerine sabit iki bölmeli bilet. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "trending_up",
+      "category": "testimonial",
+      "subCategory": "case-metric",
+      "tags": [
+        "testimonial",
+        "case-study",
+        "metric",
+        "counter",
+        "b2b",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Vakalar",
+          "en": "Cases",
+          "ar": "الحالات"
+        },
+        "baslik": {
+          "tr": "Sahadan üç kısa dosya",
+          "en": "Three short files from the field",
+          "ar": "ثلاثة ملفات قصيرة من الميدان"
+        },
+        "metin": {
+          "tr": "Kurgusal demo vakalar; kişi adları örnektir.",
+          "en": "Fictional demo cases; names are examples.",
+          "ar": "حالات تجريبية افتراضية؛ الأسماء أمثلة."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "yildiz": "color-mix(in srgb, var(--mx-color-warning, #d97706) 78%, var(--mx-site-text, #111318))",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": {
+          "tr": "Müşteri yorumları",
+          "en": "Customer reviews",
+          "ar": "تقييمات العملاء"
+        },
+        "title": {
+          "tr": "Müşterilerimiz ne diyor?",
+          "en": "What our customers say",
+          "ar": "ماذا يقول عملاؤنا؟"
+        },
+        "description": {
+          "tr": "Kurgusal demo yorumlar.",
+          "en": "Fictional demo reviews.",
+          "ar": "تقييمات تجريبية افتراضية."
+        }
+      },
+      "data": [
+        {
+          "ad": "Hatice K.",
+          "unvan": {
+            "tr": "Apartman yöneticisi",
+            "en": "Building manager",
+            "ar": "مديرة عمارة"
+          },
+          "firma": {
+            "tr": "Gül Apartmanı",
+            "en": "Gul Apartments",
+            "ar": "عمارة غول"
+          },
+          "puan": 5,
+          "baslik": {
+            "tr": "Bina panosu tek günde yenilendi",
+            "en": "Building panel replaced in a single day",
+            "ar": "تجديد لوحة المبنى في يوم واحد"
+          },
+          "metin": {
+            "tr": "Sabah başladılar, akşam her dairenin sigortası etiketliydi. Kesinti saatini bir gün önceden kapıya astılar.",
+            "en": "They started in the morning; by evening every flat's breaker was labelled. They posted the outage time on the door a day in advance.",
+            "ar": "بدأوا صباحًا، ومع المساء كان قاطع كل شقة موسومًا. وعلّقوا موعد الانقطاع على الباب قبل يوم."
+          },
+          "metrik": 1,
+          "metrikSon": {
+            "tr": " gün",
+            "en": " day",
+            "ar": " يوم"
+          },
+          "metrikMetin": {
+            "tr": "24 daire panosu",
+            "en": "panel for 24 flats",
+            "ar": "لوحة 24 شقة"
+          }
+        },
+        {
+          "ad": "Serkan D.",
+          "unvan": {
+            "tr": "Fırın işletmecisi",
+            "en": "Bakery owner",
+            "ar": "صاحب مخبز"
+          },
+          "puan": 5,
+          "baslik": {
+            "tr": "Sabah 05:00 arızası",
+            "en": "A 5 a.m. fault",
+            "ar": "عطل في الخامسة صباحًا"
+          },
+          "metin": {
+            "tr": "Hamur makinesi durunca aradım; ekip fırın açılmadan geldi, yanık klemensi değiştirdi.",
+            "en": "When the dough mixer stopped I called; the crew arrived before opening and replaced a burnt terminal.",
+            "ar": "عندما توقفت عجّانة العجين اتصلت؛ وصل الفريق قبل الافتتاح واستبدل طرف توصيل محترقًا."
+          },
+          "metrik": 42,
+          "metrikSon": {
+            "tr": " dk",
+            "en": " min",
+            "ar": " دقيقة"
+          },
+          "metrikMetin": {
+            "tr": "kapıya varış",
+            "en": "to the door",
+            "ar": "للوصول إلى الباب"
+          }
+        },
+        {
+          "ad": "Murat A.",
+          "unvan": {
+            "tr": "Ev sahibi",
+            "en": "Homeowner",
+            "ar": "صاحب منزل"
+          },
+          "puan": 4,
+          "baslik": {
+            "tr": "Eski evde yeni hat",
+            "en": "New wiring in an old house",
+            "ar": "تمديدات جديدة في منزل قديم"
+          },
+          "metin": {
+            "tr": "Kırk yıllık evin tesisatını oda oda değiştirdiler; her akşam toz alıp toparladılar.",
+            "en": "They rewired the forty-year-old house room by room and cleaned up every evening.",
+            "ar": "أعادوا تمديد المنزل الذي عمره أربعون عامًا غرفة غرفة، ونظفوا كل مساء."
+          },
+          "metrik": 18,
+          "metrikSon": {
+            "tr": " nokta",
+            "en": " points",
+            "ar": " نقطة"
+          },
+          "metrikMetin": {
+            "tr": "yenilenen priz ve anahtar",
+            "en": "sockets and switches renewed",
+            "ar": "مقبس ومفتاح جديد"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "metin": "yorum metni — dil sözlüğü (zorunlu)",
+          "ad": "yorumu yapanın adı",
+          "unvan": "görev / unvan (dil sözlüğü)",
+          "firma": "firma adı",
+          "puan": "1–5 yıldız (0/boş → yıldız yok)",
+          "img": "avatar / portre görseli",
+          "logo": "firma logosu (destekleyen yerleşimde)",
+          "baslik": "yorum başlığı (destekleyen yerleşimde)",
+          "tarih": "tarih metni",
+          "kaynak": "kaynak (Google, Instagram …)"
+        }
+      },
+      "id": "mije51",
+      "path": "yorum-vaka-metrik",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": "Özellik Rozet Şeridi — sertifika mühürleri ve açılır açıklama",
+      "description": "Sertifika, yetki ve güvenlik güvenceleri ortalı bir şeritte yuvarlak mühür rozetleri (kesik halka + ikon + kısa ad). Rozete tıklayınca şeridin altındaki tek açıklama çekmecesi o rozetin metni, varsa belge görseli ve bağlantısıyla açılır; çekmecenin oku seçilen rozete kayar. JS yokken tüm açıklamalar kart ızgarası. ozellik-ikon-serit statik bir yatay metin şerididir; bu modülde şerit yalnız mühür rozetlerinden oluşur, ayrıntı paylaşılan bir açılır çekmecede (oku rozete kayan tek panel) okunur — rozet + açıklama ayrık iskelet. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "workspace_premium",
+      "category": "ozellik",
+      "subCategory": "badge-strip",
+      "tags": [
+        "ozellik",
+        "badges",
+        "certificates",
+        "trust",
+        "disclosure",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Güvenceler",
+          "en": "Assurances",
+          "ar": "الضمانات"
+        },
+        "baslik": {
+          "tr": "Her işin arkasındaki belgeler",
+          "en": "The paperwork behind every job",
+          "ar": "المستندات وراء كل عمل"
+        },
+        "metin": {
+          "tr": "Rozete dokunun; ne içerdiğini görün. Belgeler kurgusal demo içeriğidir.",
+          "en": "Tap a badge to see what it covers. Documents are fictional demo content.",
+          "ar": "المس الشارة لترى ما تشمله. المستندات محتوى تجريبي افتراضي."
+        },
+        "img": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "eyebrow": {
+          "tr": "Neyi iyi yaparız?",
+          "en": "What we do well",
+          "ar": "ما نتقنه؟"
+        },
+        "title": {
+          "tr": "Sigortadan şarj ünitesine",
+          "en": "From fuses to EV chargers",
+          "ar": "من المصهرات إلى شواحن السيارات"
+        },
+        "description": {
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
+          "en": "Images are representative; this is a setup demo.",
+          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+        },
+        "ctaLabel": {
+          "tr": "Ayrıntı",
+          "en": "Details",
+          "ar": "التفاصيل"
+        },
+        "linkMetin": {
+          "tr": "Ayrıntı",
+          "en": "Details",
+          "ar": "التفاصيل"
+        }
+      },
+      "data": [
+        {
+          "ikon": "verified",
+          "baslik": {
+            "tr": "Mühendis onaylı proje",
+            "en": "Engineer-approved design",
+            "ar": "تصميم معتمد من مهندس"
+          },
+          "metin": {
+            "tr": "Komple tesisat ve pano işlerinde tek hat şeması elektrik mühendisince imzalanır (kurgusal belge).",
+            "en": "For rewiring and panel jobs the single-line diagram is signed by an electrical engineer (fictional document).",
+            "ar": "في أعمال التمديد الكامل واللوحات يوقّع مهندس كهرباء على المخطط أحادي الخط (مستند افتراضي)."
+          },
+          "img": "/img/sanayi-belge-1.webp",
+          "alt": {
+            "tr": "İmzalı tesisat belgesi",
+            "en": "Signed wiring document",
+            "ar": "مستند تمديدات موقّع"
+          }
+        },
+        {
+          "ikon": "shield",
+          "baslik": {
+            "tr": "Kaçak akım testi",
+            "en": "RCD test",
+            "ar": "اختبار التيار المتسرب"
+          },
+          "metin": {
+            "tr": "Her işin sonunda kaçak akım rölesi 30 mA eşiğinde test edilir, süre tutanağa yazılır.",
+            "en": "At the end of every job the RCD is tested at the 30 mA threshold and the trip time is recorded.",
+            "ar": "في نهاية كل عمل يُختبر قاطع التيار المتسرب عند عتبة 30 مللي أمبير ويُسجَّل زمن الفصل."
+          }
+        },
+        {
+          "ikon": "fact_check",
+          "baslik": {
+            "tr": "Topraklama tutanağı",
+            "en": "Earthing record",
+            "ar": "محضر التأريض"
+          },
+          "metin": {
+            "tr": "Topraklama direnci ölçülür; değer ve tarih yazılı tutanakla size kalır.",
+            "en": "Earth resistance is measured; the value and date stay with you in a written record.",
+            "ar": "تُقاس مقاومة التأريض وتبقى القيمة والتاريخ لديك في محضر مكتوب."
+          },
+          "img": "/img/sanayi-kalite-lab.webp",
+          "alt": {
+            "tr": "Ölçüm cihazıyla test",
+            "en": "Testing with a meter",
+            "ar": "اختبار بجهاز قياس"
+          }
+        },
+        {
+          "ikon": "workspace_premium",
+          "baslik": {
+            "tr": "2 yıl işçilik garantisi",
+            "en": "2-year workmanship guarantee",
+            "ar": "ضمان العمالة لمدة سنتين"
+          },
+          "metin": {
+            "tr": "Yaptığımız bağlantılarda iki yıl boyunca işçilik ücreti alınmaz (demo koşul).",
+            "en": "No labour is charged on our connections for two years (demo condition).",
+            "ar": "لا تُحتسب أجور العمالة على توصيلاتنا لمدة سنتين (شرط تجريبي)."
+          }
+        },
+        {
+          "ikon": "request_quote",
+          "baslik": {
+            "tr": "Yazılı fiyat",
+            "en": "Written price",
+            "ar": "تسعيرة مكتوبة"
+          },
+          "metin": {
+            "tr": "İş başlamadan malzeme ve işçilik kalem kalem yazılır; sürpriz ek ücret yoktur.",
+            "en": "Materials and labour are itemised in writing before work starts; no surprise extras.",
+            "ar": "تُكتب المواد والعمالة بندًا بندًا قبل البدء؛ لا رسوم إضافية مفاجئة."
+          },
+          "url": "teklif-al",
+          "linkMetin": {
+            "tr": "Teklif iste",
+            "en": "Request a quote",
+            "ar": "اطلب عرض سعر"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "baslik": "özellik adı — dil sözlüğü (zorunlu)",
+          "metin": "açıklama — dil sözlüğü",
+          "ikon": "Material Symbols adı",
+          "img": "görsel yolu (destekleyen yerleşimde; ana görsel yoksa ilk görsel)",
+          "alt": "görsel alt metni — dil sözlüğü",
+          "url": "bağlantı",
+          "linkMetin": "bağlantı yazısı (yoksa eski `ctaLabel`, o da yoksa «Devamını oku»)"
+        }
+      },
+      "id": "vujpgi",
+      "path": "ozellik-rozet-serit",
+      "local": "body",
+      "index": 18
+    },
+    {
+      "name": "Referans İlçe Süzgeç — ilçe çipleriyle süzülen tamamlanan işler",
+      "description": "Üstte «Tümü» + ilçe çipleri (iş adedi rozetli, çoklu seçim) ve canlı sonuç satırı; altta iş fişi kartları: fiş no, konum rozeti, yıl, iş/müşteri adı, kısa açıklama ve iş türü. Seçilen ilçelerin işleri kalır, diğerleri gizlenir. JS yoksa ya da tek ilçe varsa çip şeridi yok, tüm işler görünür. referans-sekme-sektor sektöre göre tek seçimli sekme panelleri kopyalar; bu modül yerinde, çoklu seçimli konum süzgeci uygular (ilçe verisi, sonuç sayacı) ve logo yerine iş fişi iskeleti (no · konum · yıl · iş türü) kullanır. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "location_on",
+      "category": "referans",
+      "subCategory": "district-filter",
+      "tags": [
+        "referans",
+        "filter",
+        "district",
+        "projects",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Tamamlanan işler",
+          "en": "Completed jobs",
+          "ar": "أعمال منجزة"
+        },
+        "baslik": {
+          "tr": "İlçe ilçe yaptıklarımız",
+          "en": "Our work, district by district",
+          "ar": "أعمالنا حيًا بحي"
+        },
+        "metin": {
+          "tr": "Kurgusal iş fişleri; gerçek müşteri değildir.",
+          "en": "Fictional job tickets; not real customers.",
+          "ar": "بطاقات عمل افتراضية وليست عملاء حقيقيين."
+        },
+        "sayi": "",
+        "sayiEtiket": "",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "sonucEtiket": {
+          "tr": "{n} tamamlanan iş",
+          "en": "{n} completed jobs",
+          "ar": "{n} عمل منجز"
+        },
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "grayscale": true,
+        "title": {
+          "tr": "Birlikte çalıştığımız kuruluşlar",
+          "en": "Organisations we work with",
+          "ar": "جهات نعمل معها"
+        },
+        "description": {
+          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional partner names; they do not belong to a real organisation.",
+          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+        }
+      },
+      "data": [
+        {
+          "ad": {
+            "tr": "Gül Apartmanı",
+            "en": "Gul Apartments",
+            "ar": "عمارة غول"
+          },
+          "ilce": {
+            "tr": "Şehitkamil",
+            "en": "Sehitkamil",
+            "ar": "شهيد كامل"
+          },
+          "yil": "2026",
+          "sektor": {
+            "tr": "Bina panosu",
+            "en": "Building panel",
+            "ar": "لوحة مبنى"
+          },
+          "metin": {
+            "tr": "24 daire, kolon hattı ve etiketli pano.",
+            "en": "24 flats, riser cable and labelled panel.",
+            "ar": "24 شقة، كابل صاعد ولوحة موسومة."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Kale Fırını",
+            "en": "Kale Bakery",
+            "ar": "مخبز قلعة"
+          },
+          "ilce": {
+            "tr": "Şahinbey",
+            "en": "Sahinbey",
+            "ar": "شاهين بي"
+          },
+          "yil": "2025",
+          "sektor": {
+            "tr": "Arıza",
+            "en": "Fault",
+            "ar": "عطل"
+          },
+          "metin": {
+            "tr": "Hamur makinesi hattı, sabah 05:00 müdahale.",
+            "en": "Dough mixer circuit, 5 a.m. call-out.",
+            "ar": "خط عجّانة العجين، تدخل في الخامسة صباحًا."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Bahçeli Ev",
+            "en": "Garden House",
+            "ar": "منزل الحديقة"
+          },
+          "ilce": {
+            "tr": "Oğuzeli",
+            "en": "Oguzeli",
+            "ar": "أوغوزلي"
+          },
+          "yil": "2025",
+          "sektor": {
+            "tr": "Aydınlatma",
+            "en": "Lighting",
+            "ar": "إنارة"
+          },
+          "metin": {
+            "tr": "Bahçe ve cephe LED aydınlatması.",
+            "en": "Garden and facade LED lighting.",
+            "ar": "إنارة LED للحديقة والواجهة."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Nizip Oto Park",
+            "en": "Nizip Car Park",
+            "ar": "موقف نيزيب"
+          },
+          "ilce": {
+            "tr": "Nizip",
+            "en": "Nizip",
+            "ar": "نيزيب"
+          },
+          "yil": "2026",
+          "sektor": {
+            "tr": "Şarj ünitesi",
+            "en": "EV charger",
+            "ar": "شاحن سيارات"
+          },
+          "metin": {
+            "tr": "İki adet 22 kW şarj ünitesi ve ayrı hat.",
+            "en": "Two 22 kW chargers on a dedicated line.",
+            "ar": "شاحنان بقدرة 22 كيلوواط على خط مستقل."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Kuzey Atölye",
+            "en": "North Workshop",
+            "ar": "ورشة الشمال"
+          },
+          "ilce": {
+            "tr": "Şehitkamil",
+            "en": "Sehitkamil",
+            "ar": "شهيد كامل"
+          },
+          "yil": "2024",
+          "sektor": {
+            "tr": "Komple tesisat",
+            "en": "Full rewiring",
+            "ar": "تمديدات كاملة"
+          },
+          "metin": {
+            "tr": "Trifaze makine hattı ve topraklama ölçümü.",
+            "en": "Three-phase machine line and earthing test.",
+            "ar": "خط آلات ثلاثي الطور وقياس التأريض."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Yavuz Konakları",
+            "en": "Yavuz Residences",
+            "ar": "مساكن يافوز"
+          },
+          "ilce": {
+            "tr": "Yavuzeli",
+            "en": "Yavuzeli",
+            "ar": "يافوزلي"
+          },
+          "yil": "2024",
+          "sektor": {
+            "tr": "Topraklama",
+            "en": "Earthing",
+            "ar": "تأريض"
+          },
+          "metin": {
+            "tr": "Altı bloğun topraklama tutanağı.",
+            "en": "Earthing records for six blocks.",
+            "ar": "محاضر تأريض لست كتل."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Merkez Eczanesi",
+            "en": "Central Pharmacy",
+            "ar": "الصيدلية المركزية"
+          },
+          "ilce": {
+            "tr": "Şahinbey",
+            "en": "Sahinbey",
+            "ar": "شاهين بي"
+          },
+          "yil": "2023",
+          "sektor": {
+            "tr": "Pano yenileme",
+            "en": "Panel replacement",
+            "ar": "تجديد لوحة"
+          },
+          "metin": {
+            "tr": "Soğuk dolap için kesintisiz ayrı hat.",
+            "en": "Uninterrupted dedicated line for the cold cabinet.",
+            "ar": "خط مستقل دون انقطاع لخزانة التبريد."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ad": "marka / kurum adı (dil sözlüğü ya da düz metin; logo alt yazısı)",
+          "img": "logo görseli yolu (boşsa yazı logosu)",
+          "url": "iç/dış bağlantı (dış → yeni sekme)",
+          "sektor": "dil sözlüğü (sektör / iş alanı)",
+          "metin": "dil sözlüğü (kısa görüş / iş özeti)",
+          "kisi": "dil sözlüğü (görüş sahibi)",
+          "yil": "birlikte çalışma yılı (düz metin)"
+        }
+      },
+      "id": "avxboo",
+      "path": "referans-ilce-suzgec",
+      "local": "body",
+      "index": 19
+    },
+    {
+      "name": "SSS Karar Ağacı — sorunu seç, adım adım çözüm",
+      "description": "Sorular büyük ikonlu «sorun» kartlarından bir ızgara; biri seçilince ızgara çekilir ve yalnız o sorunun çözümü açılır: cevabın her satırı numaralı, dikey çizgiyle bağlı bir adım, sonunda «çözülmedi mi?» satırı ve iletişim düğmesi; geri düğmesi ızgaraya döner. JS yokken kartlar çapa bağlantısı, tüm çözümler alt alta. sss-kart-izgara cevapları kartta, sss-ana-detay yan panelde gösterir; bu modül iki adımlı karar akışı — önce sorun seçimi (ızgara kaybolur), sonra cevap satırlarından üretilen numaralı adım zinciri ve çözülmediyse destek çağrısı. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Açılırlar yerel <details> (JS'siz). Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "account_tree",
+      "category": "faq",
+      "subCategory": "decision-tree",
+      "tags": [
+        "faq",
+        "decision-tree",
+        "troubleshooter",
+        "steps",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Arıza rehberi",
+          "en": "Fault guide",
+          "ar": "دليل الأعطال"
+        },
+        "baslik": {
+          "tr": "Sorununuzu seçin, adım adım ilerleyin",
+          "en": "Pick your problem, follow the steps",
+          "ar": "اختر مشكلتك واتبع الخطوات"
+        },
+        "metin": {
+          "tr": "Genel güvenlik adımlarıdır; panoyu açmayın, emin değilseniz arayın.",
+          "en": "These are general safety steps; do not open the panel, call if unsure.",
+          "ar": "هذه خطوات سلامة عامة؛ لا تفتح اللوحة، واتصل إن لم تكن متأكدًا."
+        },
+        "tekAcik": "",
+        "ilkAcik": "",
+        "cta_ad": {
+          "tr": "Ekip iste",
+          "en": "Request a crew",
+          "ar": "اطلب فريقًا"
+        },
+        "cta_url": "iletisim",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "secAd": {
+          "tr": "Sorununuzu seçin",
+          "en": "Choose your problem",
+          "ar": "اختر مشكلتك"
+        },
+        "geriAd": {
+          "tr": "Tüm sorunlar",
+          "en": "All problems",
+          "ar": "كل المشكلات"
+        },
+        "yardimAd": {
+          "tr": "Çözülmedi mi? Nöbet hattı yardımcı olur.",
+          "en": "Not solved? The duty line can help.",
+          "ar": "لم تُحل؟ خط المناوبة يساعدك."
+        },
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": {
+          "tr": "SSS",
+          "en": "FAQ",
+          "ar": "الأسئلة الشائعة"
+        },
+        "title": {
+          "tr": "Sıkça sorulan sorular",
+          "en": "Frequently asked questions",
+          "ar": "الأسئلة الشائعة"
+        },
+        "description": {
+          "tr": "Merak edilenler ve kısa yanıtlar.",
+          "en": "Common questions and short answers.",
+          "ar": "أسئلة متكررة وإجابات موجزة."
+        }
+      },
+      "data": [
+        {
+          "ikon": "power_off",
+          "soru": {
+            "tr": "Sigorta sürekli atıyor",
+            "en": "The breaker keeps tripping",
+            "ar": "القاطع يفصل باستمرار"
+          },
+          "cevap": {
+            "tr": "Son taktığınız cihazı prizden çıkarın.\nSigortayı bir kez kaldırın.\nYine atarsa sigortayı kapalı bırakın ve bizi arayın.",
+            "en": "Unplug the last appliance you connected.\nReset the breaker once.\nIf it trips again, leave it off and call us.",
+            "ar": "افصل آخر جهاز وصلته.\nارفع القاطع مرة واحدة.\nإذا فصل مجددًا فاتركه مفصولًا واتصل بنا."
+          }
+        },
+        {
+          "ikon": "flash_off",
+          "soru": {
+            "tr": "Kaçak akım rölesi düşüyor",
+            "en": "The RCD keeps tripping",
+            "ar": "قاطع التيار المتسرب يفصل"
+          },
+          "cevap": {
+            "tr": "Tüm sigortaları indirin, röleyi kaldırın.\nSigortaları tek tek açın; röleyi düşüren hattı not edin.\nO hattı kapalı bırakıp ekip isteyin.",
+            "en": "Switch off all breakers and reset the RCD.\nTurn breakers on one by one and note which one trips it.\nLeave that circuit off and request a crew.",
+            "ar": "افصل كل القواطع ثم ارفع قاطع التيار المتسرب.\nشغّل القواطع واحدًا تلو الآخر ودوّن الخط الذي يسبب الفصل.\nاترك ذلك الخط مفصولًا واطلب فريقًا."
+          }
+        },
+        {
+          "ikon": "local_fire_department",
+          "soru": {
+            "tr": "Priz ısınıyor ya da kokuyor",
+            "en": "A socket is hot or smells",
+            "ar": "مقبس ساخن أو تصدر منه رائحة"
+          },
+          "cevap": {
+            "tr": "Prizi kullanmayı hemen bırakın.\nO hattın sigortasını indirin.\nNöbet hattını arayın; prizi kendiniz açmayın.",
+            "en": "Stop using the socket immediately.\nSwitch off that circuit's breaker.\nCall the duty line; do not open the socket yourself.",
+            "ar": "توقف عن استخدام المقبس فورًا.\nافصل قاطع ذلك الخط.\nاتصل بخط المناوبة ولا تفتح المقبس بنفسك."
+          }
+        },
+        {
+          "ikon": "lightbulb",
+          "soru": {
+            "tr": "Evin bir bölümünde elektrik yok",
+            "en": "No power in part of the house",
+            "ar": "لا كهرباء في جزء من المنزل"
+          },
+          "cevap": {
+            "tr": "Panoda inik sigorta var mı bakın.\nKomşuda da kesinti varsa dağıtım şirketini arayın.\nYalnız sizdeyse teklif sihirbazından arıza seçin.",
+            "en": "Check the panel for a tripped breaker.\nIf neighbours are also out, call the distribution company.\nIf it is only you, choose \"fault\" in the quote wizard.",
+            "ar": "تحقق من وجود قاطع مفصول في اللوحة.\nإذا انقطعت الكهرباء عند الجيران أيضًا فاتصل بشركة التوزيع.\nإن كان الانقطاع عندك فقط فاختر «عطل» في معالج عرض السعر."
+          }
+        },
+        {
+          "ikon": "electric_meter",
+          "soru": {
+            "tr": "Panom yenilenmeli mi?",
+            "en": "Does my panel need replacing?",
+            "ar": "هل تحتاج لوحتي إلى تجديد؟"
+          },
+          "cevap": {
+            "tr": "Panoda porselen buşonlu sigorta varsa yenileme gerekir.\nKaçak akım rölesi yoksa eklenmesi gerekir.\nSihirbazda «pano yenileme» seçip daire alanını yazın.",
+            "en": "If the panel has old screw-in porcelain fuses, it needs replacing.\nIf there is no RCD, one must be added.\nChoose \"panel replacement\" in the wizard and enter the flat area.",
+            "ar": "إذا كانت اللوحة تحتوي على مصهرات خزفية قديمة فهي بحاجة إلى تجديد.\nإذا لم يكن هناك قاطع تيار متسرب فيجب إضافته.\nاختر «تجديد اللوحة» في المعالج وأدخل مساحة الشقة."
+          }
+        },
+        {
+          "ikon": "ev_station",
+          "soru": {
+            "tr": "Şarj ünitesi takılabilir mi?",
+            "en": "Can an EV charger be installed?",
+            "ar": "هل يمكن تركيب شاحن سيارة؟"
+          },
+          "cevap": {
+            "tr": "Aboneliğinizin gücünü faturadan okuyun.\nGaraj ya da otopark ile pano arasındaki mesafeyi ölçün.\nSihirbazda «şarj ünitesi» seçin; keşif randevusu verelim.",
+            "en": "Read your supply capacity from the bill.\nMeasure the distance between the garage or car park and the panel.\nChoose \"EV charger\" in the wizard and we will book a survey.",
+            "ar": "اقرأ قدرة اشتراكك من الفاتورة.\nقِس المسافة بين المرأب أو الموقف واللوحة.\nاختر «شاحن سيارة» في المعالج لنحدد موعد معاينة."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "soru": "dil sözlüğü (zorunlu; eski `question`)",
+          "cevap": "dil sözlüğü (eski `answer`)",
+          "kategori": "grup adı, dil sözlüğü (gruplayan yerleşimde)",
+          "ikon": "Material Symbols adı (destekleyen yerleşimde)",
+          "url": "«Devamı» bağlantısı (iç slug ya da tam URL)"
+        }
+      },
+      "id": "xpllz1",
+      "path": "sss-karar-agaci",
+      "local": "body",
+      "index": 20
+    },
+    {
+      "name": "İletişim Kapsama Kontrol — acil hat bandı + posta kodu/ilçe kapsama sorgusu",
+      "description": "Üstte marka renginde acil hat bandı (sinyal halkası, dev numara, ara düğmesi); altında solda başlık ve kanallar, sağda kapsama sorgusu: posta kodu ya da ilçe yazılır, kapsama listesiyle eşleşirse «bölgenize hizmet veriyoruz» (varış süresiyle), değilse «kapsam dışı» iletisi. JS yoksa kapsama listesi taranabilir çipler olarak görünür. iletisim-telefon-odak tek numara manşetidir; bu modül acil hattı bant olarak verir ve ASIL etkileşimi bölge eşlemesidir (data-bolge · data-kod, aksan/İ-ı duyarsız arama, {bolge}/{sure} kalıplı ileti). Hiçbir contact modülünde kapsama sorgusu yok. Kanallar desing'den (adres · telefon · WhatsApp · e-posta · saat) + data satırları; etiketler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Kanal yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "emergency",
+      "category": "contact",
+      "subCategory": "coverage-check",
+      "tags": [
+        "contact",
+        "emergency",
+        "coverage",
+        "postcode",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Kapsama",
+          "en": "Coverage",
+          "ar": "التغطية"
+        },
+        "baslik": {
+          "tr": "Bölgenize geliyor muyuz?",
+          "en": "Do we cover your area?",
+          "ar": "هل نغطي منطقتك؟"
+        },
+        "metin": {
+          "tr": "Posta kodunu ya da ilçeyi yazın; ortalama varış süresini görün.",
+          "en": "Type your postcode or district to see the average arrival time.",
+          "ar": "اكتب الرمز البريدي أو اسم المنطقة لترى متوسط وقت الوصول."
+        },
+        "adres": {
+          "tr": "Karataş Mah. 41012 Sk. No: 9, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "41012 Street No: 9, Karatas District, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع 41012 رقم 9، حي كاراتاش، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "telefon": "+90 342 041 07 07",
+        "eposta": "servis@fazelektrik.example",
+        "whatsapp": "903420410707",
+        "saat": {
+          "tr": "Saha ekibi her gün 07:00 – 23:00 · gece acil hat",
+          "en": "Field crews daily 07:00 – 23:00 · night emergency line",
+          "ar": "الفرق الميدانية يوميًا 07:00 – 23:00 · خط طوارئ ليلي"
+        },
+        "haritaUrl": "",
+        "haritaGomme": "",
+        "waMesaj": {
+          "tr": "Merhaba Faz Elektrik, bölgem için teklif istiyorum.",
+          "en": "Hello Faz Electric, I would like a quote for my area.",
+          "ar": "مرحبًا فاز للكهرباء، أريد عرض سعر لمنطقتي."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "acilTel": "+90 342 041 07 07",
+        "acilAd": {
+          "tr": "Arıza ve nöbet hattı",
+          "en": "Fault and duty line",
+          "ar": "خط الأعطال والمناوبة"
+        },
+        "kapsamBaslik": {
+          "tr": "Kapsama sorgusu",
+          "en": "Coverage check",
+          "ar": "التحقق من التغطية"
+        },
+        "kapsamEtiket": {
+          "tr": "Posta kodu ya da ilçe",
+          "en": "Postcode or district",
+          "ar": "الرمز البريدي أو المنطقة"
+        },
+        "kapsamDugme": {
+          "tr": "Sorgula",
+          "en": "Check",
+          "ar": "تحقّق"
+        },
+        "kapsamVar": {
+          "tr": "{bolge} bölgesine hizmet veriyoruz; ortalama varış {sure}.",
+          "en": "We serve {bolge}; average arrival {sure}.",
+          "ar": "نخدم منطقة {bolge}؛ متوسط الوصول {sure}."
+        },
+        "kapsamYok": {
+          "tr": "«{bolge}» şu an hizmet alanımızın dışında; telefonla sorun, yönlendirelim.",
+          "en": "\"{bolge}\" is outside our area for now; call us and we will refer you.",
+          "ar": "«{bolge}» خارج منطقة خدمتنا حاليًا؛ اتصل بنا لنوجّهك."
+        },
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "gonderim": "mailto",
+        "address": {
+          "tr": "Karataş Mah. 41012 Sk. No: 9, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "41012 Street No: 9, Karatas District, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع 41012 رقم 9، حي كاراتاش، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 041 07 07",
+        "email": "servis@fazelektrik.example",
+        "hours": {
+          "tr": "Saha ekibi her gün 07:00 – 23:00 · gece acil hat",
+          "en": "Field crews daily 07:00 – 23:00 · night emergency line",
+          "ar": "الفرق الميدانية يوميًا 07:00 – 23:00 · خط طوارئ ليلي"
+        },
+        "social": [],
+        "title": {
+          "tr": "Teklif isteyin",
+          "en": "Request a quote",
+          "ar": "اطلب عرض سعر"
+        },
+        "description": {
+          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+        },
+        "panelTitle": {
+          "tr": "Faz Elektrik",
+          "en": "Faz Elektrik",
+          "ar": "Faz Elektrik"
+        },
+        "panelText": {
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
+          "en": "Images are representative; this is a setup demo.",
+          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+        },
+        "formTitle": {
+          "tr": "Teklif formu",
+          "en": "Quote form",
+          "ar": "نموذج الطلب"
+        },
+        "subjects": [
+          {
+            "id": "a",
+            "name": {
+              "tr": "Yeni talep",
+              "en": "New request",
+              "ar": "طلب جديد"
+            }
+          },
+          {
+            "id": "b",
+            "name": {
+              "tr": "Ölçü ve keşif",
+              "en": "Measure and survey",
+              "ar": "قياس واستقصاء"
+            }
+          },
+          {
+            "id": "c",
+            "name": {
+              "tr": "Teknik soru",
+              "en": "Technical question",
+              "ar": "سؤال فني"
+            }
+          },
+          {
+            "id": "d",
+            "name": {
+              "tr": "Diğer",
+              "en": "Other",
+              "ar": "أخرى"
+            }
+          }
+        ],
+        "kvkkText": {
+          "tr": "Kişisel verilerimin bu talebin yanıtlanması amacıyla işlenmesine ilişkin aydınlatma metnini okudum.",
+          "en": "I have read the privacy notice on how my personal data is processed to answer this request.",
+          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب."
+        },
+        "kvkkLinkText": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice",
+          "ar": "إشعار الخصوصية"
+        },
+        "kvkkHref": "kisiselveriler",
+        "bolgeler": [
+          {
+            "ad": {
+              "tr": "Şahinbey",
+              "en": "Sahinbey",
+              "ar": "شاهين بي"
+            },
+            "kod": "27010",
+            "sure": {
+              "tr": "30 dk",
+              "en": "30 min",
+              "ar": "30 دقيقة"
+            }
+          },
+          {
+            "ad": {
+              "tr": "Şehitkamil",
+              "en": "Sehitkamil",
+              "ar": "شهيد كامل"
+            },
+            "kod": "27060",
+            "sure": {
+              "tr": "35 dk",
+              "en": "35 min",
+              "ar": "35 دقيقة"
+            }
+          },
+          {
+            "ad": {
+              "tr": "Oğuzeli",
+              "en": "Oguzeli",
+              "ar": "أوغوزلي"
+            },
+            "kod": "27900",
+            "sure": {
+              "tr": "50 dk",
+              "en": "50 min",
+              "ar": "50 دقيقة"
+            }
+          },
+          {
+            "ad": {
+              "tr": "Nizip",
+              "en": "Nizip",
+              "ar": "نيزيب"
+            },
+            "kod": "27700",
+            "sure": {
+              "tr": "70 dk",
+              "en": "70 min",
+              "ar": "70 دقيقة"
+            }
+          },
+          {
+            "ad": {
+              "tr": "Yavuzeli",
+              "en": "Yavuzeli",
+              "ar": "يافوزلي"
+            },
+            "kod": "27650",
+            "sure": {
+              "tr": "65 dk",
+              "en": "65 min",
+              "ar": "65 دقيقة"
+            }
+          },
+          {
+            "ad": {
+              "tr": "İslahiye",
+              "en": "Islahiye",
+              "ar": "إصلاحية"
+            },
+            "kod": "27800",
+            "sure": {
+              "tr": "90 dk",
+              "en": "90 min",
+              "ar": "90 دقيقة"
+            }
+          }
+        ]
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (kanal türü ikondan da anlaşılır: mail · call · location_on · schedule)",
+          "deger": "dil sözlüğü (görünen değer, zorunlu; eski `text`)",
+          "url": "bağlantı (boşsa e-posta/telefon/haritadan türetilir)",
+          "baslik": "dil sözlüğü (kanal etiketi)"
+        }
+      },
+      "id": "m0xoej",
+      "path": "iletisim-kapsama-kontrol",
+      "local": "body",
+      "index": 21
+    },
+    {
+      "name": "Çağrı Nöbetçi — ikaz şeritli 7/24 acil çağrı",
+      "description": "Kayan ikaz şeridi çerçeveli kutu: başlangıçta nabız atan durum ışığı (ziyaretçinin saatine göre «nöbette» / «nöbet dışı»), başlık, metin ve hizmet bölgesi çipleri (data); bitişte tam genişlik dev «ara» düğmesi (tel:), düğmeler ve dipnot. cagri-telefon numarayı koyu zeminde yazı olarak büyütür; bu modül ikaz şeridi iskeleti, canlı açık/kapalı durumu (desing.nobet saat aralığı, istemci saati) ve bölge listesiyle acil servis çağrısı — ailede durum hesaplayan çağrı yok. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık da düğme de yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "electric_bolt",
+      "category": "cta",
+      "subCategory": "emergency-duty",
+      "tags": [
+        "cta",
+        "emergency",
+        "24-7",
+        "status",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Nöbet hattı",
+          "en": "Duty line",
+          "ar": "خط المناوبة"
+        },
+        "baslik": {
+          "tr": "Elektrik mi kesildi? Nöbet hattı açık",
+          "en": "Power cut? The duty line is open",
+          "ar": "انقطعت الكهرباء؟ خط المناوبة مفتوح"
+        },
+        "metin": {
+          "tr": "Önce sigortayı kapatın, sonra arayın: en yakın saha ekibini yönlendirelim.",
+          "en": "Switch off the breaker first, then call: we will send the nearest field crew.",
+          "ar": "افصل القاطع أولًا ثم اتصل: سنرسل أقرب فريق ميداني."
+        },
+        "btn1Text": {
+          "tr": "Teklif sihirbazı",
+          "en": "Quote wizard",
+          "ar": "معالج عرض السعر"
+        },
+        "btn1Url": "teklif-al",
+        "btn2Text": {
+          "tr": "Hizmet bölgesi",
+          "en": "Service area",
+          "ar": "منطقة الخدمة"
+        },
+        "btn2Url": "iletisim",
+        "img": "",
+        "alt": "",
+        "ikon": "",
+        "not": {
+          "tr": "Kıvılcım ya da yanık kokusu varsa önce ana şalteri indirin.",
+          "en": "If you see sparks or smell burning, switch off the main breaker first.",
+          "ar": "إذا رأيت شررًا أو شممت رائحة احتراق فافصل القاطع الرئيسي أولًا."
+        },
+        "number": "903420410707",
+        "numberText": "+90 342 041 07 07",
+        "waLabel": {
+          "tr": "Mesaj gönder",
+          "en": "Send a message",
+          "ar": "أرسل رسالة"
+        },
+        "waTitle": {
+          "tr": "WhatsApp ile yazın",
+          "en": "Write on WhatsApp",
+          "ar": "راسلنا عبر واتساب"
+        },
+        "waMessage": {
+          "tr": "Merhaba Faz Elektrik, acil bir arıza için ekip istiyorum.",
+          "en": "Hello Faz Electric, I need a crew for an urgent fault.",
+          "ar": "مرحبًا فاز للكهرباء، أحتاج فريقًا لعطل عاجل."
+        },
+        "hours": {
+          "tr": "Saha ekibi 07:00 – 23:00",
+          "en": "Field crews 07:00 – 23:00",
+          "ar": "الفرق الميدانية 07:00 – 23:00"
+        },
+        "hoursLabel": {
+          "tr": "Çalışma saatleri",
+          "en": "Opening hours",
+          "ar": "ساعات العمل"
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "yaziRenk": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "sag": "whatsapp",
+        "title": {
+          "tr": "Elektrik mi kesildi? Nöbet hattı açık",
+          "en": "Power cut? The duty line is open",
+          "ar": "انقطعت الكهرباء؟ خط المناوبة مفتوح"
+        },
+        "btn1Label": {
+          "tr": "Teklif sihirbazı",
+          "en": "Quote wizard",
+          "ar": "معالج عرض السعر"
+        },
+        "btn2Label": {
+          "tr": "Hizmet bölgesi",
+          "en": "Service area",
+          "ar": "منطقة الخدمة"
+        },
+        "description": {
+          "tr": "Önce sigortayı kapatın, sonra arayın: en yakın saha ekibini yönlendirelim.",
+          "en": "Switch off the breaker first, then call: we will send the nearest field crew.",
+          "ar": "افصل القاطع أولًا ثم اتصل: سنرسل أقرب فريق ميداني."
+        },
+        "nobet": "07:00–23:00",
+        "acikAd": {
+          "tr": "Saha ekipleri şu an görevde",
+          "en": "Field crews are on duty now",
+          "ar": "الفرق الميدانية في الخدمة الآن"
+        },
+        "kapaliAd": {
+          "tr": "Gece nöbeti: acil arıza için arayın",
+          "en": "Night shift: call for urgent faults",
+          "ar": "المناوبة الليلية: اتصل للأعطال العاجلة"
+        },
+        "bolgeAd": {
+          "tr": "Nöbet bölgeleri",
+          "en": "Duty areas",
+          "ar": "مناطق المناوبة"
+        }
+      },
+      "data": [
+        {
+          "ikon": "location_on",
+          "baslik": {
+            "tr": "Şahinbey",
+            "en": "Sahinbey",
+            "ar": "شاهين بي"
+          }
+        },
+        {
+          "ikon": "location_on",
+          "baslik": {
+            "tr": "Şehitkamil",
+            "en": "Sehitkamil",
+            "ar": "شهيد كامل"
+          }
+        },
+        {
+          "ikon": "location_on",
+          "baslik": {
+            "tr": "Oğuzeli",
+            "en": "Oguzeli",
+            "ar": "أوغوزلي"
+          }
+        },
+        {
+          "ikon": "location_on",
+          "baslik": {
+            "tr": "Nizip",
+            "en": "Nizip",
+            "ar": "نيزيب"
+          }
+        },
+        {
+          "ikon": "location_on",
+          "baslik": {
+            "tr": "Yavuzeli",
+            "en": "Yavuzeli",
+            "ar": "يافوزلي"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (madde)",
+          "baslik": "dil sözlüğü (madde yazısı, zorunlu)",
+          "aciklama": "dil sözlüğü (madde alt yazısı)"
+        }
+      },
+      "id": "gyz5fx",
+      "path": "cagri-nobetci",
+      "local": "body",
+      "index": 22
+    },
+    {
+      "name": "Alt Etiket Bulutu — sayfa ve hizmetler hap etiketlerde, iletişim büyük çiplerde",
+      "description": "Sayfalar ve hizmetler yuvarlak hap etiketlerden bir bulut; iletişim (telefon, e-posta, adres) ikonlu büyük çipler; saatler satır içi rozetler; sağda bülten kutusu; en altta logo, tanıtım, sosyal, telif, yasal, dil, başa dön. Liste/sütun yerine dokunmaya hazır etiket ve çipler: mobilde büyük dokunma alanı, renkli ve hafif; genç markalar için. Sayfalar site sayfalarından, iletişim desing → site ayarı, sosyal wmSocialBar, dil seçici {{langbar}}. Metinler dil sözlüğü / lang.json; renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+      "version": "1.0.0",
+      "icon": "sell",
+      "category": "footer",
+      "subCategory": "tag-cloud",
+      "tags": [
+        "footer",
+        "chips",
+        "tags",
+        "touch",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(48px, 6vw, 80px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "hakkinda": {
+          "tr": "Faz Elektrik: arıza, pano ve tesisat için Gaziantep'te kurgusal demo servis.",
+          "en": "Faz Electric: a fictional demo service for faults, panels and wiring in Gaziantep.",
+          "ar": "فاز للكهرباء: خدمة تجريبية افتراضية للأعطال واللوحات والتمديدات في غازي عنتاب."
+        },
+        "tel": "+90 342 041 07 07",
+        "eposta": "servis@fazelektrik.example",
+        "adres": {
+          "tr": "Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "Sahinbey, Gaziantep (fictional address)",
+          "ar": "شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "cta_ad": "",
+        "cta_url": "",
+        "rightsText": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoH": "48px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "showlang": true,
+        "maxpages": 8,
+        "nlShow": true,
+        "nlGonderim": "mailto",
+        "about": {
+          "tr": "Faz Elektrik demo temadır; içerik, sayılar ve vakalar kurgusaldır.",
+          "en": "Faz Electric is a demo theme; content, figures and cases are fictional.",
+          "ar": "فاز للكهرباء قالب تجريبي؛ المحتوى والأرقام والحالات افتراضية."
+        },
+        "address": {
+          "tr": "Karataş Mah. 41012 Sk. No: 9, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "41012 Street No: 9, Karatas District, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع 41012 رقم 9، حي كاراتاش، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 041 07 07",
+        "email": "servis@fazelektrik.example",
+        "social": [],
+        "legal": [
+          {
+            "name": {
+              "tr": "KVKK",
+              "en": "Privacy (KVKK)",
+              "ar": "حماية البيانات"
+            },
+            "href": "kisiselveriler"
+          },
+          {
+            "name": {
+              "tr": "Gizlilik",
+              "en": "Privacy policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "href": "gizlilikpolitikasi"
+          },
+          {
+            "name": {
+              "tr": "Yasal uyarı",
+              "en": "Legal notice",
+              "ar": "إشعار قانوني"
+            },
+            "href": "yasaluyari"
+          }
+        ],
+        "nlTitle": {
+          "tr": "Bakım hatırlatıcısı",
+          "en": "Maintenance reminder",
+          "ar": "تذكير الصيانة"
+        },
+        "nlText": {
+          "tr": "Yıllık pano ve topraklama kontrolü için hatırlatma alın. Demo sitede veri saklanmaz.",
+          "en": "Get a reminder for the yearly panel and earthing check. No data is stored on this demo site.",
+          "ar": "احصل على تذكير بالفحص السنوي للوحة والتأريض. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+        },
+        "nlKvkk": {
+          "tr": "E-postanız yalnızca duyuru göndermek için kullanılır; dilediğiniz an listeden çıkabilirsiniz.",
+          "en": "Your e-mail is used only to send announcements; you can leave the list at any time.",
+          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت."
+        },
+        "services": [
+          {
+            "name": {
+              "tr": "Arıza ve acil",
+              "en": "Faults & emergencies",
+              "ar": "الأعطال والطوارئ"
+            },
+            "href": "hizmetler"
+          },
+          {
+            "name": {
+              "tr": "Pano yenileme",
+              "en": "Panel replacement",
+              "ar": "تجديد اللوحات"
+            },
+            "href": "hizmetler"
+          },
+          {
+            "name": {
+              "tr": "Teklif sihirbazı",
+              "en": "Quote wizard",
+              "ar": "معالج عرض السعر"
+            },
+            "href": "teklif-al"
+          },
+          {
+            "name": {
+              "tr": "Kapsama sorgusu",
+              "en": "Coverage check",
+              "ar": "التحقق من التغطية"
+            },
+            "href": "iletisim"
+          }
+        ],
+        "hours": [
+          {
+            "days": {
+              "tr": "Saha ekibi · her gün",
+              "en": "Field crews · daily",
+              "ar": "الفرق الميدانية · يوميًا"
+            },
+            "time": "07:00 – 23:00"
+          },
+          {
+            "days": {
+              "tr": "Ofis · Pzt–Cmt",
+              "en": "Office · Mon–Sat",
+              "ar": "المكتب · الاثنين–السبت"
+            },
+            "time": "08:30 – 18:30"
+          },
+          {
+            "days": {
+              "tr": "Acil hat",
+              "en": "Emergency line",
+              "ar": "خط الطوارئ"
+            },
+            "time": "7/24"
+          }
+        ],
+        "title_services": {
+          "tr": "Hızlı bağlantılar",
+          "en": "Quick links",
+          "ar": "روابط سريعة"
+        }
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "hakkinda": "kısa tanıtım (dil sözlüğü; yoksa setting.description)",
+          "tel": "telefon (yoksa setting.phone)",
+          "eposta": "e-posta (yoksa setting.email)",
+          "adres": "adres (dil sözlüğü; yoksa setting.address)",
+          "services": "bağlantı listesi [{ name, href }] (footer-10)",
+          "hours": "çalışma saatleri [{ days, time }]",
+          "legal": "yasal bağlantılar [{ text, href }]",
+          "social": "sosyal hesaplar [{ ad, url }] (yoksa site ayarı)",
+          "rightsText": "telif satırı (yoksa @all-rights@)",
+          "nlTitle": "bülten başlığı (bülten formu yalnız başlık/metin + alıcı e-posta varken)"
+        }
+      },
+      "id": "1uelc2",
+      "path": "alt-etiket-bulut",
+      "local": "footer",
+      "index": 23
+    }
+  ]
+}

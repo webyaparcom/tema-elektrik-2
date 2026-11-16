@@ -1,0 +1,41 @@
+{
+  "id": "qcgto4dgua",
+  "name": {
+    "tr": "Hizmetler",
+    "en": "Services",
+    "ar": "الخدمات"
+  },
+  "description": {
+    "tr": "Konut, dükkân ve atölye için ölçülü, belgeli elektrik işleri.",
+    "en": "Measured, documented electrical work for homes, shops and workshops.",
+    "ar": "أعمال كهربائية مدروسة وموثّقة للمنازل والمحلات والورش."
+  },
+  "keyword": {
+    "tr": "Hizmetler",
+    "en": "Services",
+    "ar": "الخدمات"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "w1n5gm",
+      "vujpgi",
+      "gyz5fx"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetler",
+    "en": "Services",
+    "ar": "الخدمات"
+  },
+  "date": "2026-11-16T11:26:04.253Z",
+  "update": "2026-11-16T11:26:04.257Z"
+}

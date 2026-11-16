@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About us",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "5k36v9",
+      "9ea1zx"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "2012'den bu yana adım adım büyüyen kurgusal bir elektrik servisi.",
+    "en": "A fictional electrical service growing step by step since 2012.",
+    "ar": "خدمة كهربائية افتراضية تنمو خطوة بخطوة منذ 2012."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About us",
+    "ar": "من نحن"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T11:26:04.261Z",
+  "date": "2026-10-30"
+}

@@ -1,0 +1,166 @@
+{
+  "data": [
+    {
+      "id": "qcgto4dgua",
+      "name": {
+        "tr": "Hizmetler",
+        "en": "Services",
+        "ar": "الخدمات"
+      },
+      "description": {
+        "tr": "Konut, dükkân ve atölye için ölçülü, belgeli elektrik işleri.",
+        "en": "Measured, documented electrical work for homes, shops and workshops.",
+        "ar": "أعمال كهربائية مدروسة وموثّقة للمنازل والمحلات والورش."
+      },
+      "path": "hizmetler",
+      "icon": "work",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "w1n5gm",
+          "vujpgi",
+          "gyz5fx"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About us",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "5k36v9",
+          "9ea1zx"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "2012'den bu yana adım adım büyüyen kurgusal bir elektrik servisi.",
+        "en": "A fictional electrical service growing step by step since 2012.",
+        "ar": "خدمة كهربائية افتراضية تنمو خطوة بخطوة منذ 2012."
+      }
+    },
+    {
+      "id": "6r5gh8g9hn",
+      "name": {
+        "tr": "Arıza rehberi",
+        "en": "Fault guide",
+        "ar": "دليل الأعطال"
+      },
+      "description": {
+        "tr": "Sık görülen arızalar için adım adım güvenlik rehberi.",
+        "en": "A step-by-step safety guide for common faults.",
+        "ar": "دليل سلامة خطوة بخطوة للأعطال الشائعة."
+      },
+      "path": "sorular",
+      "icon": "help",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "xpllz1",
+          "gyz5fx"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "u9rjcbghng",
+      "name": {
+        "tr": "İşlerimiz",
+        "en": "Our work",
+        "ar": "أعمالنا"
+      },
+      "description": {
+        "tr": "İlçelere göre tamamlanan işler ve vakalar (kurgusal).",
+        "en": "Completed jobs and cases by district (fictional).",
+        "ar": "الأعمال المنجزة والحالات حسب المنطقة (افتراضية)."
+      },
+      "path": "referanslar",
+      "icon": "stars",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "avxboo",
+          "mije51"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "5v104xu2xj",
+      "name": {
+        "tr": "Teklif sihirbazı",
+        "en": "Quote wizard",
+        "ar": "معالج عرض السعر"
+      },
+      "description": {
+        "tr": "Üç adımda elektrik işi teklifi (demo).",
+        "en": "A three-step electrical quote (demo).",
+        "ar": "عرض سعر لعمل كهربائي في ثلاث خطوات (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "request_quote",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "s73b52",
+          "xpllz1"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "Kapsama ve iletişim",
+        "en": "Coverage & contact",
+        "ar": "التغطية والتواصل"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 5,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "m0xoej",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

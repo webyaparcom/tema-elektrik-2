@@ -1,0 +1,860 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>معالج عرض السعر</title>
+  <meta name="description" content="عرض سعر لعمل كهربائي في ثلاث خطوات (تجريبي)." />
+  <meta name="keywords" content="عرض سعر" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://elektrik-2.webyapar.com/ar/teklif-al/" />
+  <link rel="alternate" hreflang="tr" href="https://elektrik-2.webyapar.com/tr/teklif-al/" />
+  <link rel="alternate" hreflang="en" href="https://elektrik-2.webyapar.com/en/teklif-al/" />
+  <link rel="alternate" hreflang="ar" href="https://elektrik-2.webyapar.com/ar/teklif-al/" />
+  <link rel="alternate" hreflang="x-default" href="https://elektrik-2.webyapar.com/tr/teklif-al/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="معالج عرض السعر" />
+  <meta property="og:description" content="عرض سعر لعمل كهربائي في ثلاث خطوات (تجريبي)." />
+  <meta property="og:url" content="https://elektrik-2.webyapar.com/ar/teklif-al/" />
+  <meta property="og:image" content="https://elektrik-2.webyapar.com/img/logo.png" />
+  <meta property="og:image:alt" content="معالج عرض السعر" />
+  <meta property="og:site_name" content="Faz Elektrik" />
+  <meta property="og:locale" content="ar_SA" />
+  <meta property="og:locale:alternate" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="معالج عرض السعر" />
+  <meta name="twitter:description" content="عرض سعر لعمل كهربائي في ثلاث خطوات (تجريبي)." />
+  <meta name="twitter:image" content="https://elektrik-2.webyapar.com/img/logo.png" />
+
+  <meta name="theme-color" content="#1D4ED8" />
+  <meta name="mx-api-base" content="none" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/fonts/open-sans.css?v=m1j79" />
+  <link rel="stylesheet" href="/src/rubik.css?v=m1j79" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=m1j79" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=m1j79" />
+  <link rel="stylesheet" href="/src/css.css?v=m1j79" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=m1j79" />
+  
+  <link rel="stylesheet" href="/src/mx-ui.css?v=m1j79" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=m1j79" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=m1j79" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=m1j79" />
+  <link rel="shortcut icon" href="/img/icon.png?v=m1j79" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://elektrik-2.webyapar.com/#website",
+      "url": "https://elektrik-2.webyapar.com/",
+      "name": "Faz Elektrik",
+      "description": "فاز للكهرباء: عرض سعر عبر الإنترنت في ثلاث خطوات للأعطال واللوحات والتمديدات وشواحن السيارات؛ فرق ميدانية من 07:00 إلى 23:00. موقع تجريبي؛ المحتوى افتراضي.",
+      "inLanguage": "ar",
+      "publisher": {
+        "@id": "https://elektrik-2.webyapar.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://elektrik-2.webyapar.com/#organization",
+      "name": "Faz Elektrik",
+      "url": "https://elektrik-2.webyapar.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://elektrik-2.webyapar.com/img/logo.png"
+      },
+      "image": "https://elektrik-2.webyapar.com/img/logo.png",
+      "description": "فاز للكهرباء: عرض سعر عبر الإنترنت في ثلاث خطوات للأعطال واللوحات والتمديدات وشواحن السيارات؛ فرق ميدانية من 07:00 إلى 23:00. موقع تجريبي؛ المحتوى افتراضي."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://elektrik-2.webyapar.com/ar/teklif-al/#webpage",
+      "url": "https://elektrik-2.webyapar.com/ar/teklif-al/",
+      "name": "معالج عرض السعر",
+      "description": "عرض سعر لعمل كهربائي في ثلاث خطوات (تجريبي).",
+      "inLanguage": "ar",
+      "isPartOf": {
+        "@id": "https://elektrik-2.webyapar.com/#website"
+      },
+      "about": {
+        "@id": "https://elektrik-2.webyapar.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://elektrik-2.webyapar.com/img/logo.png"
+      },
+      "dateModified": "2026-11-16T11:26:04.275Z",
+      "breadcrumb": {
+        "@id": "https://elektrik-2.webyapar.com/ar/teklif-al/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://elektrik-2.webyapar.com/ar/teklif-al/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Faz Elektrik",
+          "item": "https://elektrik-2.webyapar.com/ar/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "معالج عرض السعر",
+          "item": "https://elektrik-2.webyapar.com/ar/teklif-al/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://elektrik-2.webyapar.com/ar/teklif-al/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "القاطع يفصل باستمرار",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "افصل آخر جهاز وصلته. ارفع القاطع مرة واحدة. إذا فصل مجددًا فاتركه مفصولًا واتصل بنا."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "قاطع التيار المتسرب يفصل",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "افصل كل القواطع ثم ارفع قاطع التيار المتسرب. شغّل القواطع واحدًا تلو الآخر ودوّن الخط الذي يسبب الفصل. اترك ذلك الخط مفصولًا واطلب فريقًا."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "مقبس ساخن أو تصدر منه رائحة",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "توقف عن استخدام المقبس فورًا. افصل قاطع ذلك الخط. اتصل بخط المناوبة ولا تفتح المقبس بنفسك."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "لا كهرباء في جزء من المنزل",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تحقق من وجود قاطع مفصول في اللوحة. إذا انقطعت الكهرباء عند الجيران أيضًا فاتصل بشركة التوزيع. إن كان الانقطاع عندك فقط فاختر «عطل» في معالج عرض السعر."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل تحتاج لوحتي إلى تجديد؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "إذا كانت اللوحة تحتوي على مصهرات خزفية قديمة فهي بحاجة إلى تجديد. إذا لم يكن هناك قاطع تيار متسرب فيجب إضافته. اختر «تجديد اللوحة» في المعالج وأدخل مساحة الشقة."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل يمكن تركيب شاحن سيارة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "اقرأ قدرة اشتراكك من الفاتورة. قِس المسافة بين المرأب أو الموقف واللوحة. اختر «شاحن سيارة» في المعالج لنحدد موعد معاينة."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+  
+<link rel="stylesheet" href="style.css?v=m1j79">
+</head>
+
+<body>
+  <a class="mx-skip-link" href="#content">انتقل إلى المحتوى</a>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
+  <div id="header"><div class="h0000-db" id="db-k8db01" role="region" aria-label="تنبيه الموقع التجريبي" data-tone="info" style="--db-bg:var(--mx-site-text, #1b1b1b);--db-fg:var(--mx-site-bg, #ffffff)">
+  <span class="material-symbols-outlined h0000-db-icon" aria-hidden="true">info</span>
+  <p class="h0000-db-text">هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات</p>
+  <a class="h0000-db-cta" href="https://webyapar.com/temalar" target="_blank" rel="noopener noreferrer">
+    <span>اطلب هذا القالب</span><span class="mx-visually-hidden"> (يفتح في علامة تبويب جديدة)</span>
+    <span class="material-symbols-outlined mx-flip h0000-db-arrow" aria-hidden="true">arrow_forward</span>
+  </a>
+  
+</div>
+<script defer src="https://webyapar.com/api/portal/tema-hata.js"></script>
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("db-k8db01");
+    if (!kok) {
+      return;
+    }
+    var itilenler = [];
+    var gorulen = [];
+
+    function ustaTasi() {
+      var govde = document.body;
+      if (!govde || kok.parentNode === govde) {
+        return;
+      }
+      var ilk = document.getElementById("header");
+      if (ilk && ilk.parentNode === govde) {
+        govde.insertBefore(kok, ilk);
+      } else {
+        govde.insertBefore(kok, govde.firstChild);
+      }
+    }
+
+    function adayMi(el) {
+      if (el === kok || kok.contains(el) || el.nodeType !== 1) {
+        return false;
+      }
+      var cs = window.getComputedStyle(el);
+      if ((cs.position !== "fixed" && cs.position !== "sticky") || cs.display === "none") {
+        return false;
+      }
+      
+      return parseFloat(cs.top) === 0 && el.offsetHeight > 0 && el.offsetHeight <= 200;
+    }
+
+    function it() {
+      var h = kok.offsetHeight;
+      document.documentElement.style.setProperty("--mx-demo-bandi-h", h + "px");
+      var liste = document.querySelectorAll("#header *, body > *");
+      for (var i = 0; i < liste.length; i++) {
+        var el = liste[i];
+        if (gorulen.indexOf(el) !== -1) {
+          continue;
+        }
+        if (adayMi(el)) {
+          gorulen.push(el);
+          itilenler.push(el);
+        }
+      }
+      for (var j = 0; j < itilenler.length; j++) {
+        itilenler[j].style.top = h + "px";
+      }
+    }
+
+    ustaTasi();
+    it();
+    window.addEventListener("load", function () {
+      ustaTasi();
+      it();
+      setTimeout(it, 400);
+      setTimeout(it, 1500);
+    });
+    window.addEventListener("resize", it);
+    if (window.ResizeObserver) {
+      new window.ResizeObserver(it).observe(kok);
+    }
+  })();
+</script>
+<div class="h0001">
+
+  <div class="h0001body">
+    <a href="/ar/"><img src="/img/logo.png?v=pypej" class="h0001-logo" alt="Faz Elektrik Logo" loading="lazy" /></a>
+
+
+    <div class="h0001right">
+      <div class="h0001languages ">
+        <ul>
+          <li class="wm-lang-item"><a href="/tr/teklif-al/" hreflang="tr" lang="tr" title="Türkçe">tr</a></li><li class="wm-lang-item"><a href="/en/teklif-al/" hreflang="en" lang="en" title="English">en</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/teklif-al/" hreflang="ar" lang="ar" aria-current="true" title="العربية">ar</a></li>
+        </ul>
+      </div>
+      <div class="h0001contactlist">
+    <a href="tel:+903420410707" class="mobil-closed" target="_blank" rel="noopener noreferrer">
+     <div class="material-symbols-outlined h0001-icon" style="color:#1D4ED8">call</div>
+     <div>
+      <div  class="h0001-title">خط الأعطال</div>
+      <div  class="h0001-spot" style="color:#1D4ED8">+90 342 041 07 07</div>
+     </div>
+    </a>
+    
+    <a href="mailto:servis@fazelektrik.example" class="mobil-closed" target="_blank" rel="noopener noreferrer">
+     <div class="material-symbols-outlined h0001-icon" style="color:#1D4ED8">mail</div>
+     <div>
+      <div  class="h0001-title">راسلنا</div>
+      <div  class="h0001-spot" style="color:#334155">servis@fazelektrik.example</div>
+     </div>
+    </a>
+    
+    <a href="tel:+903420410707" class="mobil-closed" target="_blank" rel="noopener noreferrer">
+     <div class="material-symbols-outlined h0001-icon" style="color:#1D4ED8">schedule</div>
+     <div>
+      <div  class="h0001-title">الفرق الميدانية</div>
+      <div  class="h0001-spot" style="color:#334155">يوميًا 07:00 – 23:00</div>
+     </div>
+    </a>
+    </div>
+    </div>
+
+
+    <button type="button" class="h0001-mobile-toggle" onclick="menu3_toggle()" aria-label="فتح القائمة أو إغلاقها" style="cursor: pointer;">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+  </div>
+  
+  <div class="h0001menuoverlay" id="menu-3-overlay" onclick="menu3_toggle()" aria-hidden="true" style="cursor: pointer;"></div>
+  <div class="h0001menubody" id="menu-3-drawer">
+    <div class="h0001menu" id="menu-3-root">
+      
+      <div class="h0001menulistbody">
+        <div class="h0001menulist"><a class="h0001menulist-menu" href="/ar/">الصفحة الرئيسية </a><div class="h0001menulist-menu " >
+
+      <a href="/ar/hizmetler/">
+       الخدمات
+      </a>
+     
+                    </div>
+    <div class="h0001menulist-menu " >
+
+      <a href="/ar/hakkimizda/">
+       من نحن
+      </a>
+     
+                    </div>
+    <div class="h0001menulist-menu " >
+
+      <a href="/ar/sorular/">
+       دليل الأعطال
+      </a>
+     
+                    </div>
+    <div class="h0001menulist-menu " >
+
+      <a href="/ar/referanslar/">
+       أعمالنا
+      </a>
+     
+                    </div>
+    <div class="h0001menulist-menu dropdown-content-active-h0001" >
+
+      <a href="/ar/teklif-al/">
+       معالج عرض السعر
+      </a>
+     
+                    </div>
+    <div class="h0001menulist-menu " >
+
+      <a href="/ar/iletisim/">
+       التغطية والتواصل
+      </a>
+     
+                    </div>
+    </div>
+      </div>
+      
+      <div class="h0001menudrawer-right">
+        <div class="h0001menudrawer-languages ">
+          <ul><li class="wm-lang-item"><a href="/tr/teklif-al/" hreflang="tr" lang="tr" title="Türkçe">tr</a></li><li class="wm-lang-item"><a href="/en/teklif-al/" hreflang="en" lang="en" title="English">en</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/teklif-al/" hreflang="ar" lang="ar" aria-current="true" title="العربية">ar</a></li></ul>
+        </div>
+        <div class="h0001menudrawer-contactlist">
+    <a href="tel:+903420410707" class="mobil-closed" target="_blank" rel="noopener noreferrer">
+     <div class="material-symbols-outlined h0001-icon" style="color:#1D4ED8">call</div>
+     <div>
+      <div  class="h0001-title">خط الأعطال</div>
+      <div  class="h0001-spot" style="color:#1D4ED8">+90 342 041 07 07</div>
+     </div>
+    </a>
+    
+    <a href="mailto:servis@fazelektrik.example" class="mobil-closed" target="_blank" rel="noopener noreferrer">
+     <div class="material-symbols-outlined h0001-icon" style="color:#1D4ED8">mail</div>
+     <div>
+      <div  class="h0001-title">راسلنا</div>
+      <div  class="h0001-spot" style="color:#334155">servis@fazelektrik.example</div>
+     </div>
+    </a>
+    
+    <a href="tel:+903420410707" class="mobil-closed" target="_blank" rel="noopener noreferrer">
+     <div class="material-symbols-outlined h0001-icon" style="color:#1D4ED8">schedule</div>
+     <div>
+      <div  class="h0001-title">الفرق الميدانية</div>
+      <div  class="h0001-spot" style="color:#334155">يوميًا 07:00 – 23:00</div>
+     </div>
+    </a>
+    </div>
+      </div>
+      <button type="button" class="h0001menuclose" onclick="menu3_toggle()" aria-label="إغلاق القائمة" style="cursor: pointer;">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  if (typeof menu3_toggle === "undefined") {
+    function menu3_close() {
+      var root = document.getElementById("menu-3-root");
+      var overlay = document.getElementById("menu-3-overlay");
+      var drawer = document.getElementById("menu-3-drawer");
+      var menuBtn = document.querySelector(".h0001-mobile-toggle");
+      if (!root || !root.classList.contains("h0001menu-open")) {
+        return;
+      }
+      root.classList.remove("h0001menu-open");
+      if (overlay) {
+        overlay.classList.remove("h0001menu-open");
+        overlay.setAttribute("aria-hidden", "true");
+      }
+      if (drawer) {
+        drawer.classList.remove("h0001menu-open");
+        drawer.style.transform = "";
+      }
+      if (menuBtn) {
+        menuBtn.setAttribute("aria-expanded", "false");
+      }
+      document.body.style.overflow = "";
+    }
+
+    function menu3_toggle() {
+      var root = document.getElementById("menu-3-root");
+      var overlay = document.getElementById("menu-3-overlay");
+      var drawer = document.getElementById("menu-3-drawer");
+      var menuBtn = document.querySelector(".h0001-mobile-toggle");
+      if (!root) {
+        return;
+      }
+      var isOpen = root.classList.contains("h0001menu-open");
+      if (isOpen) {
+        menu3_close();
+        if (menuBtn) {
+          menuBtn.setAttribute("aria-expanded", "false");
+        }
+      } else {
+        root.classList.add("h0001menu-open");
+        if (overlay) {
+          overlay.classList.add("h0001menu-open");
+          overlay.setAttribute("aria-hidden", "false");
+        }
+        if (drawer) {
+          drawer.classList.add("h0001menu-open");
+        }
+        if (menuBtn) {
+          menuBtn.setAttribute("aria-expanded", "true");
+        }
+        document.body.style.overflow = "hidden";
+      }
+    }
+  }
+
+  
+  setTimeout(function() {
+    var drawer = document.getElementById("menu-3-drawer");
+    if (drawer) {
+      drawer.addEventListener("click", function(e) {
+        var link = e.target.closest("a[href]");
+        if (link) {
+          menu3_close();
+        }
+      });
+    }
+  }, 100);
+
+  
+  setTimeout(function() {
+    var drawer = document.getElementById("menu-3-drawer");
+    if (!drawer) {
+      return;
+    }
+    var touchStartX = 0;
+    var touchStartY = 0;
+    var touchDeltaX = 0;
+    var isHorizontalSwipe = false;
+
+    drawer.addEventListener("touchstart", function(e) {
+      var root = document.getElementById("menu-3-root");
+      if (!root || !root.classList.contains("h0001menu-open")) {
+        return;
+      }
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+      touchDeltaX = 0;
+      isHorizontalSwipe = false;
+      drawer.style.transition = "none";
+    }, { passive: true });
+
+    drawer.addEventListener("touchmove", function(e) {
+      var root = document.getElementById("menu-3-root");
+      if (!root || !root.classList.contains("h0001menu-open")) {
+        return;
+      }
+      var x = e.touches[0].clientX;
+      var y = e.touches[0].clientY;
+      touchDeltaX = x - touchStartX;
+      var deltaY = Math.abs(y - touchStartY);
+      var yon = document.documentElement.getAttribute("dir") === "rtl" ? 1 : -1;
+      var kapanma = touchDeltaX * yon;
+      if (kapanma > 15 && kapanma > deltaY) {
+        isHorizontalSwipe = true;
+      }
+      if (isHorizontalSwipe && kapanma > 0) {
+        e.preventDefault();
+        drawer.style.transform = "translateX(" + touchDeltaX + "px)";
+      }
+    }, { passive: false });
+
+    drawer.addEventListener("touchend", function() {
+      var root = document.getElementById("menu-3-root");
+      if (!root || !root.classList.contains("h0001menu-open")) {
+        return;
+      }
+      drawer.style.transition = "";
+      var yonSon = document.documentElement.getAttribute("dir") === "rtl" ? 1 : -1;
+      if (touchDeltaX * yonSon > 80) {
+        menu3_close();
+      } else {
+        drawer.style.transform = "";
+      }
+    }, { passive: true });
+  }, 100);
+</script></div>
+  <div id="content"><section class="b0000-teklif-sihirbazi-hero" aria-labelledby="b0000-teklif-sihirbazi-hero-s73b52-b">
+  <div class="b0000-teklif-sihirbazi-hero-ic">
+    
+    <div class="b0000-teklif-sihirbazi-hero-kafa b0000-teklif-sihirbazi-hero-gir"><p class="b0000-teklif-sihirbazi-hero-ust">خدمة كهربائية · غازي عنتاب</p><h1 class="b0000-teklif-sihirbazi-hero-h1" id="b0000-teklif-sihirbazi-hero-s73b52-b">عرض سعر كهربائي في ثلاث خطوات</h1><p class="b0000-teklif-sihirbazi-hero-metin">اختر العمل، وأدخل المساحة ونوع المبنى، واترك بيانات التواصل؛ لتصلك تسعيرة مكتوبة في اليوم نفسه. النموذج تجريبي ولا يحفظ البيانات.</p><div class="b0000-teklif-sihirbazi-hero-cta"><a class="b0000-teklif-sihirbazi-hero-dugme" href="/ar/hizmetler/">الخدمات<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a><a class="b0000-teklif-sihirbazi-hero-dugme b0000-teklif-sihirbazi-hero-dugme--ikincil" href="/ar/iletisim/">التحقق من التغطية</a></div></div><form class="b0000-teklif-sihirbazi-hero-sihirbaz" data-fb-randevu data-gonderim="whatsapp" data-wa="903420410707" data-eposta="servis@fazelektrik.example" data-action="" data-konu="عرض سعر كهربائي في ثلاث خطوات" data-ok="تم إرسال رسالتك. سنعود إليك قريبًا." data-hata="تعذّر إرسال الرسالة. يرجى التواصل عبر الهاتف أو البريد الإلكتروني."><div class="b0000-teklif-sihirbazi-hero-ray"><ol class="b0000-teklif-sihirbazi-hero-isaretler"><li class="b0000-teklif-sihirbazi-hero-isaret" data-adim-isaret><span class="b0000-teklif-sihirbazi-hero-ino">1</span><span class="b0000-teklif-sihirbazi-hero-iad">نوع العمل</span></li><li class="b0000-teklif-sihirbazi-hero-isaret" data-adim-isaret><span class="b0000-teklif-sihirbazi-hero-ino">2</span><span class="b0000-teklif-sihirbazi-hero-iad">نوع المبنى</span></li><li class="b0000-teklif-sihirbazi-hero-isaret" data-adim-isaret><span class="b0000-teklif-sihirbazi-hero-ino">3</span><span class="b0000-teklif-sihirbazi-hero-iad">التواصل</span></li></ol><ul class="b0000-teklif-sihirbazi-hero-ozet" data-ozet aria-label="ملخص الطلب"></ul></div><div class="b0000-teklif-sihirbazi-hero-adimlar"><fieldset class="b0000-teklif-sihirbazi-hero-adim" data-adim><legend class="b0000-teklif-sihirbazi-hero-alegend">نوع العمل</legend><div class="b0000-teklif-sihirbazi-hero-karolar"><label class="b0000-teklif-sihirbazi-hero-karo"><input class="b0000-teklif-sihirbazi-hero-radyo" type="radio" name="service" value="h1" data-metin="عطل / طارئ" data-etiket="نوع العمل" required /><span class="b0000-teklif-sihirbazi-hero-kic"><span class="b0000-teklif-sihirbazi-hero-kikon material-symbols-outlined" aria-hidden="true">electrical_services</span><strong class="b0000-teklif-sihirbazi-hero-kad">عطل / طارئ</strong><span class="b0000-teklif-sihirbazi-hero-kdeger">في اليوم نفسه</span><span class="b0000-teklif-sihirbazi-hero-ktik material-symbols-outlined" aria-hidden="true">check</span></span></label><label class="b0000-teklif-sihirbazi-hero-karo"><input class="b0000-teklif-sihirbazi-hero-radyo" type="radio" name="service" value="h2" data-metin="تجديد اللوحة" data-etiket="نوع العمل" /><span class="b0000-teklif-sihirbazi-hero-kic"><span class="b0000-teklif-sihirbazi-hero-kikon material-symbols-outlined" aria-hidden="true">electric_meter</span><strong class="b0000-teklif-sihirbazi-hero-kad">تجديد اللوحة</strong><span class="b0000-teklif-sihirbazi-hero-kdeger">يوم واحد</span><span class="b0000-teklif-sihirbazi-hero-ktik material-symbols-outlined" aria-hidden="true">check</span></span></label><label class="b0000-teklif-sihirbazi-hero-karo"><input class="b0000-teklif-sihirbazi-hero-radyo" type="radio" name="service" value="h3" data-metin="تمديدات كاملة" data-etiket="نوع العمل" /><span class="b0000-teklif-sihirbazi-hero-kic"><span class="b0000-teklif-sihirbazi-hero-kikon material-symbols-outlined" aria-hidden="true">cable</span><strong class="b0000-teklif-sihirbazi-hero-kad">تمديدات كاملة</strong><span class="b0000-teklif-sihirbazi-hero-kdeger">مع معاينة</span><span class="b0000-teklif-sihirbazi-hero-ktik material-symbols-outlined" aria-hidden="true">check</span></span></label><label class="b0000-teklif-sihirbazi-hero-karo"><input class="b0000-teklif-sihirbazi-hero-radyo" type="radio" name="service" value="h4" data-metin="الإنارة" data-etiket="نوع العمل" /><span class="b0000-teklif-sihirbazi-hero-kic"><span class="b0000-teklif-sihirbazi-hero-kikon material-symbols-outlined" aria-hidden="true">lightbulb</span><strong class="b0000-teklif-sihirbazi-hero-kad">الإنارة</strong><span class="b0000-teklif-sihirbazi-hero-kdeger">LED</span><span class="b0000-teklif-sihirbazi-hero-ktik material-symbols-outlined" aria-hidden="true">check</span></span></label><label class="b0000-teklif-sihirbazi-hero-karo"><input class="b0000-teklif-sihirbazi-hero-radyo" type="radio" name="service" value="h5" data-metin="قياس التأريض" data-etiket="نوع العمل" /><span class="b0000-teklif-sihirbazi-hero-kic"><span class="b0000-teklif-sihirbazi-hero-kikon material-symbols-outlined" aria-hidden="true">health_and_safety</span><strong class="b0000-teklif-sihirbazi-hero-kad">قياس التأريض</strong><span class="b0000-teklif-sihirbazi-hero-kdeger">مع محضر</span><span class="b0000-teklif-sihirbazi-hero-ktik material-symbols-outlined" aria-hidden="true">check</span></span></label><label class="b0000-teklif-sihirbazi-hero-karo"><input class="b0000-teklif-sihirbazi-hero-radyo" type="radio" name="service" value="h6" data-metin="شاحن سيارة" data-etiket="نوع العمل" /><span class="b0000-teklif-sihirbazi-hero-kic"><span class="b0000-teklif-sihirbazi-hero-kikon material-symbols-outlined" aria-hidden="true">ev_station</span><strong class="b0000-teklif-sihirbazi-hero-kad">شاحن سيارة</strong><span class="b0000-teklif-sihirbazi-hero-kdeger">7–22 كيلوواط</span><span class="b0000-teklif-sihirbazi-hero-ktik material-symbols-outlined" aria-hidden="true">check</span></span></label></div></fieldset><fieldset class="b0000-teklif-sihirbazi-hero-adim" data-adim><legend class="b0000-teklif-sihirbazi-hero-alegend">نوع المبنى</legend><div class="b0000-teklif-sihirbazi-hero-alan b0000-teklif-sihirbazi-hero-alan--olcu"><label class="b0000-teklif-sihirbazi-hero-etiket" for="b0000-teklif-sihirbazi-hero-s73b52-olcu">المساحة</label><div class="b0000-teklif-sihirbazi-hero-olcu"><input class="b0000-teklif-sihirbazi-hero-girdi" id="b0000-teklif-sihirbazi-hero-s73b52-olcu" name="olcu" type="number" inputmode="decimal" min="0" step="any" data-etiket="المساحة (م²)" /><span class="b0000-teklif-sihirbazi-hero-birim">م²</span></div></div><fieldset class="b0000-teklif-sihirbazi-hero-grup"><legend class="b0000-teklif-sihirbazi-hero-etiket">نوع المبنى</legend><div class="b0000-teklif-sihirbazi-hero-cipler"><label class="b0000-teklif-sihirbazi-hero-cip"><input class="b0000-teklif-sihirbazi-hero-radyo" type="radio" name="kapsam" value="شقة" data-metin="شقة" data-etiket="نوع المبنى" /><span class="b0000-teklif-sihirbazi-hero-cyazi">شقة</span></label><label class="b0000-teklif-sihirbazi-hero-cip"><input class="b0000-teklif-sihirbazi-hero-radyo" type="radio" name="kapsam" value="منزل مستقل" data-metin="منزل مستقل" data-etiket="نوع المبنى" /><span class="b0000-teklif-sihirbazi-hero-cyazi">منزل مستقل</span></label><label class="b0000-teklif-sihirbazi-hero-cip"><input class="b0000-teklif-sihirbazi-hero-radyo" type="radio" name="kapsam" value="محل / مكتب" data-metin="محل / مكتب" data-etiket="نوع المبنى" /><span class="b0000-teklif-sihirbazi-hero-cyazi">محل / مكتب</span></label><label class="b0000-teklif-sihirbazi-hero-cip"><input class="b0000-teklif-sihirbazi-hero-radyo" type="radio" name="kapsam" value="ورشة" data-metin="ورشة" data-etiket="نوع المبنى" /><span class="b0000-teklif-sihirbazi-hero-cyazi">ورشة</span></label></div></fieldset></fieldset><fieldset class="b0000-teklif-sihirbazi-hero-adim" data-adim><legend class="b0000-teklif-sihirbazi-hero-alegend">التواصل</legend><div class="b0000-teklif-sihirbazi-hero-alanlar"><div class="b0000-teklif-sihirbazi-hero-alan"><label class="b0000-teklif-sihirbazi-hero-etiket" for="b0000-teklif-sihirbazi-hero-s73b52-name">اسمك ولقبك<span class="b0000-teklif-sihirbazi-hero-zor" aria-hidden="true"> *</span></label><input class="b0000-teklif-sihirbazi-hero-girdi" id="b0000-teklif-sihirbazi-hero-s73b52-name" name="name" type="text" data-etiket="اسمك ولقبك" autocomplete="name" required /></div><div class="b0000-teklif-sihirbazi-hero-alan"><label class="b0000-teklif-sihirbazi-hero-etiket" for="b0000-teklif-sihirbazi-hero-s73b52-phone">الهاتف<span class="b0000-teklif-sihirbazi-hero-zor" aria-hidden="true"> *</span></label><input class="b0000-teklif-sihirbazi-hero-girdi" id="b0000-teklif-sihirbazi-hero-s73b52-phone" name="phone" type="tel" data-etiket="الهاتف" autocomplete="tel" required inputmode="tel" minlength="7" /></div><div class="b0000-teklif-sihirbazi-hero-alan"><label class="b0000-teklif-sihirbazi-hero-etiket" for="b0000-teklif-sihirbazi-hero-s73b52-email">البريد الإلكتروني</label><input class="b0000-teklif-sihirbazi-hero-girdi" id="b0000-teklif-sihirbazi-hero-s73b52-email" name="email" type="email" data-etiket="البريد الإلكتروني" autocomplete="email" /></div><div class="b0000-teklif-sihirbazi-hero-alan b0000-teklif-sihirbazi-hero-alan--genis"><label class="b0000-teklif-sihirbazi-hero-etiket" for="b0000-teklif-sihirbazi-hero-s73b52-message">رسالتك</label><textarea class="b0000-teklif-sihirbazi-hero-girdi" id="b0000-teklif-sihirbazi-hero-s73b52-message" name="message" rows="3" data-etiket="رسالتك"></textarea></div></div></fieldset><div class="b0000-teklif-sihirbazi-hero-nav"><button type="button" class="b0000-teklif-sihirbazi-hero-dugme b0000-teklif-sihirbazi-hero-dugme--ikincil" data-geri><span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_back</span>السابق</button><button type="button" class="b0000-teklif-sihirbazi-hero-dugme" data-ileri>التالي<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></button><button type="submit" class="b0000-teklif-sihirbazi-hero-dugme b0000-teklif-sihirbazi-hero-gonder" data-son>اطلب عرض سعر<span class="material-symbols-outlined" aria-hidden="true">chat</span></button><p class="b0000-teklif-sihirbazi-hero-durum" role="status" aria-live="polite"></p></div></div></form>
+  </div>
+</section>
+
+
+<script>
+  (() => {
+    const P = "b0000-teklif-sihirbazi-hero";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const randevu = (s, P) => {
+        const dl = document.documentElement.lang || undefined;
+        const iso = (t) => `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, "0")}-${String(t.getDate()).padStart(2, "0")}`;
+        const isoGun = (t) => ((t.getDay() + 6) % 7) + 1;
+        const coz = (v) => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(v || ""); return m ? new Date(+m[1], +m[2] - 1, +m[3]) : null; };
+        const bicim = (o) => { try { return new Intl.DateTimeFormat(dl, o); } catch (x) { return null; } };
+        const uzun = bicim({ weekday: "long", day: "numeric", month: "long", year: "numeric" });
+        const tarihYaz = (v) => { const t = coz(v); return t && uzun ? uzun.format(t) : v || ""; };
+        s.querySelectorAll("form[data-fb-randevu]").forEach((f) => {
+          const d = f.dataset;
+          s.classList.add(P + "--rjs");
+          const gunler = String(d.gunler || "1,2,3,4,5,6,7").split(",").map(Number);
+          const kapali = String(d.kapali || "").split(",").filter(Boolean);
+          const acikMi = (t) => gunler.includes(isoGun(t)) && !kapali.includes(iso(t));
+          const bugun = new Date();
+          bugun.setHours(0, 0, 0, 0);
+          const ilkGun = new Date(bugun);
+          ilkGun.setDate(ilkGun.getDate() + (Number(d.onGun) || 0));
+          const sonGun = new Date(bugun);
+          sonGun.setDate(sonGun.getDate() + (Number(d.azamiGun) || 60));
+          const durum = f.querySelector("[role=status]");
+          const yaz = (m, hata) => { if (durum) { durum.textContent = m || ""; durum.classList.toggle(P + "-durum--hata", !!hata); } };
+          const al = (ad) => { const e = f.elements.namedItem(ad); return e && "value" in e ? String(e.value).trim() : ""; };
+          let t0 = Date.now();
+          
+          const tarih = f.querySelector("input[type=date]");
+          const kontrol = () => { if (!tarih) return; const t = coz(tarih.value); tarih.setCustomValidity(t && !acikMi(t) ? d.kapaliMesaj || "" : ""); };
+          if (tarih) {
+            tarih.min = iso(ilkGun);
+            tarih.max = iso(sonGun);
+            tarih.addEventListener("change", kontrol);
+            tarih.addEventListener("input", kontrol);
+          }
+          
+          const serit = f.querySelector("[data-gun-serit]");
+          if (serit && tarih) {
+            const adet = Number(serit.dataset.gunSerit) || 14;
+            const fa = bicim({ weekday: "short" });
+            const fg = bicim({ day: "numeric" });
+            const fy = bicim({ month: "short" });
+            const t = new Date(ilkGun);
+            let n = 0;
+            for (let g = 0; n < adet && t <= sonGun && g < 400; g++) {
+              if (acikMi(t)) {
+                const l = document.createElement("label");
+                l.className = P + "-gun";
+                const r = document.createElement("input");
+                r.type = "radio";
+                r.name = "date";
+                r.value = iso(t);
+                r.className = P + "-radyo";
+                r.dataset.tarih = "1";
+                r.dataset.etiket = tarih.dataset.etiket || "";
+                if (!n) r.required = true;
+                l.append(r);
+                [[fa, "gad"], [fg, "gno"], [fy, "gay"]].forEach(([b, k]) => { const sp = document.createElement("span"); sp.className = P + "-" + k; sp.textContent = b ? b.format(t) : iso(t); l.append(sp); });
+                serit.append(l);
+                n++;
+              }
+              t.setDate(t.getDate() + 1);
+            }
+            if (n) {
+              const kap = f.querySelector("[data-gun-kap]");
+              const yerel = f.querySelector("[data-tarih-alan]");
+              if (kap) kap.hidden = false;
+              if (yerel) yerel.hidden = true;
+              tarih.disabled = true;
+            }
+          }
+          
+          f.querySelectorAll("[data-arti], [data-eksi]").forEach((b) => b.addEventListener("click", () => {
+            const e = f.querySelector("#" + (b.dataset.arti || b.dataset.eksi));
+            if (!e) return;
+            if (b.dataset.arti) e.stepUp(); else e.stepDown();
+            e.dispatchEvent(new Event("input", { bubbles: true }));
+          }));
+          
+          const satirlar = () => {
+            const out = [];
+            const gor = new Set();
+            [...f.elements].forEach((e) => {
+              if (!e.name || e.disabled || gor.has(e.name) || ["website", "kvkk", "fb-kanal"].includes(e.name) || e.type === "submit" || e.type === "button") return;
+              let v = "";
+              if (e.type === "radio") {
+                const c = [...f.elements].find((x) => x.name === e.name && x.checked && !x.disabled);
+                if (!c) return;
+                v = c.dataset.tarih ? tarihYaz(c.value) : c.dataset.metin || c.value;
+              } else if (e.type === "checkbox") {
+                if (!e.checked) return;
+                v = e.dataset.metin || e.value;
+              } else if (e.tagName === "SELECT") {
+                if (!e.value) return;
+                v = e.options[e.selectedIndex].text.trim();
+              } else if (e.type === "date") v = tarihYaz(e.value);
+              else v = String(e.value).trim();
+              gor.add(e.name);
+              if (v) out.push({ ad: e.name, et: e.dataset.etiket || e.name, v });
+            });
+            return out;
+          };
+          
+          const ozet = () => {
+            const L = satirlar().filter((x) => x.ad !== "message");
+            s.querySelectorAll("[data-ozet]").forEach((o) => {
+              o.replaceChildren(...L.map((x) => { const li = document.createElement("li"); const b = document.createElement("b"); b.textContent = x.et; const sp = document.createElement("span"); sp.textContent = x.v; li.append(b, sp); return li; }));
+            });
+            s.classList.toggle(P + "--ozetli", L.length > 0);
+          };
+          f.addEventListener("input", ozet);
+          f.addEventListener("change", ozet);
+          
+          const adimlar = [...f.querySelectorAll("[data-adim]")];
+          const isaret = [...s.querySelectorAll("[data-adim-isaret]")];
+          let ai = 0;
+          const goster = (n, odak) => {
+            ai = n;
+            adimlar.forEach((a, j) => { a.hidden = j !== n; });
+            isaret.forEach((x, j) => { if (j === n) x.setAttribute("aria-current", "step"); else x.removeAttribute("aria-current"); x.classList.toggle(P + "--tamam", j < n); });
+            s.style.setProperty("--adim", String(adimlar.length > 1 ? n / (adimlar.length - 1) : 1));
+            f.querySelectorAll("[data-geri]").forEach((b) => { b.hidden = n === 0; });
+            f.querySelectorAll("[data-ileri]").forEach((b) => { b.hidden = n === adimlar.length - 1; });
+            f.querySelectorAll("[data-son]").forEach((b) => { b.hidden = n !== adimlar.length - 1; });
+            if (odak) { const g = adimlar[n].querySelector("input:not([type=hidden]):not(:disabled), select, textarea"); if (g) g.focus(); }
+          };
+          if (adimlar.length > 1) {
+            f.querySelectorAll("[data-ileri]").forEach((b) => b.addEventListener("click", () => {
+              const kotu = [...adimlar[ai].querySelectorAll("input, select, textarea")].find((e) => e.willValidate && !e.checkValidity());
+              if (kotu) { kotu.reportValidity(); return; }
+              if (ai < adimlar.length - 1) goster(ai + 1, true);
+            }));
+            f.querySelectorAll("[data-geri]").forEach((b) => b.addEventListener("click", () => { if (ai > 0) goster(ai - 1, true); }));
+            goster(0);
+          }
+          const ics = (metin) => {
+            const t = coz(al("date"));
+            if (!t) return;
+            const sa = /^(\d{1,2}):(\d{2})$/.exec(al("time"));
+            const sec = f.querySelector("select[name=service]");
+            const r = [...f.elements].find((x) => x.name === "service" && x.checked);
+            const dk = Number((r && r.dataset.sure) || (sec && sec.selectedIndex > 0 && sec.options[sec.selectedIndex].dataset.sure) || d.sure) || 30;
+            const z = (x) => `${iso(x).replace(/-/g, "")}T${String(x.getHours()).padStart(2, "0")}${String(x.getMinutes()).padStart(2, "0")}00`;
+            const kac = (x) => String(x).replace(/\\/g, "\\\\").replace(/[,;]/g, (m) => "\\" + m).replace(/\r?\n/g, "\\n");
+            let bas = `DTSTART;VALUE=DATE:${iso(t).replace(/-/g, "")}`;
+            let bit = "";
+            if (sa) {
+              t.setHours(+sa[1], +sa[2]);
+              bas = `DTSTART:${z(t)}`;
+              bit = `DTEND:${z(new Date(t.getTime() + dk * 60000))}`;
+            }
+            const satir = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//webmaker//randevu//", "BEGIN:VEVENT", `UID:${Date.now()}-${Math.random().toString(36).slice(2)}`,
+              `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+/, "")}`, bas, bit, `SUMMARY:${kac(d.konu || document.title)}`, `DESCRIPTION:${kac(metin)}`,
+              d.yer ? `LOCATION:${kac(d.yer)}` : "", "END:VEVENT", "END:VCALENDAR"].filter(Boolean).join("\r\n");
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(new Blob([satir], { type: "text/calendar" }));
+            a.download = "randevu.ics";
+            document.body.append(a);
+            a.click();
+            a.remove();
+            setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+          };
+          f.addEventListener("submit", (e) => {
+            e.preventDefault();
+            if (!f.checkValidity()) {
+              const k = [...f.elements].find((x) => x.willValidate && !x.checkValidity());
+              if (k && adimlar.length > 1) { const j = adimlar.findIndex((a) => a.contains(k)); if (j > -1 && j !== ai) goster(j); }
+              f.reportValidity();
+              return;
+            }
+            if (al("website")) return;
+            const L = satirlar();
+            const metin = (d.konu ? [d.konu, ""] : []).concat(L.map((x) => `${x.et}: ${x.v}`)).join("\n");
+            const kanal = [...f.elements].find((x) => x.name === "fb-kanal" && x.checked);
+            const g = kanal ? kanal.value : d.gonderim;
+            const hizmet = (L.find((x) => x.ad === "service") || {}).v || "";
+            if (d.action) {
+              const b = f.querySelector("[type=submit]");
+              if (b) b.disabled = true;
+              const yuk = { name: al("name"), email: al("email"), phone: al("phone"), topic: hizmet, message: metin, date: al("date"), time: al("time"), guests: al("guests"),
+                kvkk: true, lang: document.documentElement.lang || "", page: location.pathname, website: al("website"), t: Date.now() - t0 };
+              fetch(d.action, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(yuk) })
+                .then((r) => r.json().catch(() => ({})).then((j) => r.ok && j && j.ok !== false))
+                .then((ok) => { if (b) b.disabled = false; yaz(ok ? d.ok : d.hata, !ok); if (ok) { f.reset(); t0 = Date.now(); ozet(); } })
+                .catch(() => { if (b) b.disabled = false; yaz(d.hata, true); });
+              return;
+            }
+            if (g === "whatsapp" && d.wa) window.open(`https://wa.me/${d.wa}?text=${encodeURIComponent(metin)}`, "_blank", "noopener");
+            else if (g === "ics") ics(metin);
+            else if (d.eposta) location.href = `mailto:${d.eposta}?subject=${encodeURIComponent(d.konu || "")}&body=${encodeURIComponent(metin.replace(/\n/g, "\r\n"))}`;
+            else if (d.wa) window.open(`https://wa.me/${d.wa}?text=${encodeURIComponent(metin)}`, "_blank", "noopener");
+            yaz(d.ok, false);
+          });
+          ozet();
+        });
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      randevu(s, P, az);
+    });
+  })();
+</script>
+<section class="b0001-sss-karar-agaci" aria-labelledby="b0001-sss-karar-agaci-xpllz1-b">
+  <div class="b0001-sss-karar-agaci-ic">
+    <header class="b0001-sss-karar-agaci-bas"><p class="b0001-sss-karar-agaci-ust">دليل الأعطال</p><h2 class="b0001-sss-karar-agaci-baslik" id="b0001-sss-karar-agaci-xpllz1-b">اختر مشكلتك واتبع الخطوات</h2><p class="b0001-sss-karar-agaci-metin">هذه خطوات سلامة عامة؛ لا تفتح اللوحة، واتصل إن لم تكن متأكدًا.</p></header>
+    <div class="b0001-sss-karar-agaci-agac"><div class="b0001-sss-karar-agaci-secim" data-agac-izgara><p class="b0001-sss-karar-agaci-sec-bas"><span class="b0001-sss-karar-agaci-sec-ikon material-symbols-outlined" aria-hidden="true">touch_app</span><span>اختر مشكلتك</span></p><ul class="b0001-sss-karar-agaci-sorunlar"><li><a class="b0001-sss-karar-agaci-sorun" href="#b0001-sss-karar-agaci-xpllz1-c0" data-agac="0"><span class="b0001-sss-karar-agaci-sikon material-symbols-outlined" aria-hidden="true">power_off</span><span class="b0001-sss-karar-agaci-soru">القاطع يفصل باستمرار</span><span class="b0001-sss-karar-agaci-git material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></li><li><a class="b0001-sss-karar-agaci-sorun" href="#b0001-sss-karar-agaci-xpllz1-c1" data-agac="1"><span class="b0001-sss-karar-agaci-sikon material-symbols-outlined" aria-hidden="true">flash_off</span><span class="b0001-sss-karar-agaci-soru">قاطع التيار المتسرب يفصل</span><span class="b0001-sss-karar-agaci-git material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></li><li><a class="b0001-sss-karar-agaci-sorun" href="#b0001-sss-karar-agaci-xpllz1-c2" data-agac="2"><span class="b0001-sss-karar-agaci-sikon material-symbols-outlined" aria-hidden="true">local_fire_department</span><span class="b0001-sss-karar-agaci-soru">مقبس ساخن أو تصدر منه رائحة</span><span class="b0001-sss-karar-agaci-git material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></li><li><a class="b0001-sss-karar-agaci-sorun" href="#b0001-sss-karar-agaci-xpllz1-c3" data-agac="3"><span class="b0001-sss-karar-agaci-sikon material-symbols-outlined" aria-hidden="true">lightbulb</span><span class="b0001-sss-karar-agaci-soru">لا كهرباء في جزء من المنزل</span><span class="b0001-sss-karar-agaci-git material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></li><li><a class="b0001-sss-karar-agaci-sorun" href="#b0001-sss-karar-agaci-xpllz1-c4" data-agac="4"><span class="b0001-sss-karar-agaci-sikon material-symbols-outlined" aria-hidden="true">electric_meter</span><span class="b0001-sss-karar-agaci-soru">هل تحتاج لوحتي إلى تجديد؟</span><span class="b0001-sss-karar-agaci-git material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></li><li><a class="b0001-sss-karar-agaci-sorun" href="#b0001-sss-karar-agaci-xpllz1-c5" data-agac="5"><span class="b0001-sss-karar-agaci-sikon material-symbols-outlined" aria-hidden="true">ev_station</span><span class="b0001-sss-karar-agaci-soru">هل يمكن تركيب شاحن سيارة؟</span><span class="b0001-sss-karar-agaci-git material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></li></ul></div><div class="b0001-sss-karar-agaci-cozumler"><div class="b0001-sss-karar-agaci-cozum" id="b0001-sss-karar-agaci-xpllz1-c0" data-agac-panel="0" role="region" aria-labelledby="b0001-sss-karar-agaci-xpllz1-h0" tabindex="-1"><div class="b0001-sss-karar-agaci-cust"><button type="button" class="b0001-sss-karar-agaci-geri" data-agac-geri hidden><span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_back</span><span>كل المشكلات</span></button><h3 class="b0001-sss-karar-agaci-cbas" id="b0001-sss-karar-agaci-xpllz1-h0"><span class="b0001-sss-karar-agaci-cikon material-symbols-outlined" aria-hidden="true">power_off</span><span>القاطع يفصل باستمرار</span></h3></div><ol class="b0001-sss-karar-agaci-adimlar"><li class="b0001-sss-karar-agaci-adim" style="--j: 0"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">1</span><p class="b0001-sss-karar-agaci-cevap">افصل آخر جهاز وصلته.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 1"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">2</span><p class="b0001-sss-karar-agaci-cevap">ارفع القاطع مرة واحدة.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 2"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">3</span><p class="b0001-sss-karar-agaci-cevap">إذا فصل مجددًا فاتركه مفصولًا واتصل بنا.</p></li></ol><div class="b0001-sss-karar-agaci-yardim"><p class="b0001-sss-karar-agaci-ymetin"><span class="b0001-sss-karar-agaci-yikon material-symbols-outlined" aria-hidden="true">support_agent</span><span>لم تُحل؟ خط المناوبة يساعدك.</span></p><div class="b0001-sss-karar-agaci-cta"><a class="b0001-sss-karar-agaci-dugme" href="/ar/iletisim/">اطلب فريقًا<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0001-sss-karar-agaci-cozum" id="b0001-sss-karar-agaci-xpllz1-c1" data-agac-panel="1" role="region" aria-labelledby="b0001-sss-karar-agaci-xpllz1-h1" tabindex="-1"><div class="b0001-sss-karar-agaci-cust"><button type="button" class="b0001-sss-karar-agaci-geri" data-agac-geri hidden><span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_back</span><span>كل المشكلات</span></button><h3 class="b0001-sss-karar-agaci-cbas" id="b0001-sss-karar-agaci-xpllz1-h1"><span class="b0001-sss-karar-agaci-cikon material-symbols-outlined" aria-hidden="true">flash_off</span><span>قاطع التيار المتسرب يفصل</span></h3></div><ol class="b0001-sss-karar-agaci-adimlar"><li class="b0001-sss-karar-agaci-adim" style="--j: 0"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">1</span><p class="b0001-sss-karar-agaci-cevap">افصل كل القواطع ثم ارفع قاطع التيار المتسرب.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 1"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">2</span><p class="b0001-sss-karar-agaci-cevap">شغّل القواطع واحدًا تلو الآخر ودوّن الخط الذي يسبب الفصل.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 2"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">3</span><p class="b0001-sss-karar-agaci-cevap">اترك ذلك الخط مفصولًا واطلب فريقًا.</p></li></ol><div class="b0001-sss-karar-agaci-yardim"><p class="b0001-sss-karar-agaci-ymetin"><span class="b0001-sss-karar-agaci-yikon material-symbols-outlined" aria-hidden="true">support_agent</span><span>لم تُحل؟ خط المناوبة يساعدك.</span></p><div class="b0001-sss-karar-agaci-cta"><a class="b0001-sss-karar-agaci-dugme" href="/ar/iletisim/">اطلب فريقًا<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0001-sss-karar-agaci-cozum" id="b0001-sss-karar-agaci-xpllz1-c2" data-agac-panel="2" role="region" aria-labelledby="b0001-sss-karar-agaci-xpllz1-h2" tabindex="-1"><div class="b0001-sss-karar-agaci-cust"><button type="button" class="b0001-sss-karar-agaci-geri" data-agac-geri hidden><span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_back</span><span>كل المشكلات</span></button><h3 class="b0001-sss-karar-agaci-cbas" id="b0001-sss-karar-agaci-xpllz1-h2"><span class="b0001-sss-karar-agaci-cikon material-symbols-outlined" aria-hidden="true">local_fire_department</span><span>مقبس ساخن أو تصدر منه رائحة</span></h3></div><ol class="b0001-sss-karar-agaci-adimlar"><li class="b0001-sss-karar-agaci-adim" style="--j: 0"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">1</span><p class="b0001-sss-karar-agaci-cevap">توقف عن استخدام المقبس فورًا.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 1"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">2</span><p class="b0001-sss-karar-agaci-cevap">افصل قاطع ذلك الخط.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 2"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">3</span><p class="b0001-sss-karar-agaci-cevap">اتصل بخط المناوبة ولا تفتح المقبس بنفسك.</p></li></ol><div class="b0001-sss-karar-agaci-yardim"><p class="b0001-sss-karar-agaci-ymetin"><span class="b0001-sss-karar-agaci-yikon material-symbols-outlined" aria-hidden="true">support_agent</span><span>لم تُحل؟ خط المناوبة يساعدك.</span></p><div class="b0001-sss-karar-agaci-cta"><a class="b0001-sss-karar-agaci-dugme" href="/ar/iletisim/">اطلب فريقًا<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0001-sss-karar-agaci-cozum" id="b0001-sss-karar-agaci-xpllz1-c3" data-agac-panel="3" role="region" aria-labelledby="b0001-sss-karar-agaci-xpllz1-h3" tabindex="-1"><div class="b0001-sss-karar-agaci-cust"><button type="button" class="b0001-sss-karar-agaci-geri" data-agac-geri hidden><span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_back</span><span>كل المشكلات</span></button><h3 class="b0001-sss-karar-agaci-cbas" id="b0001-sss-karar-agaci-xpllz1-h3"><span class="b0001-sss-karar-agaci-cikon material-symbols-outlined" aria-hidden="true">lightbulb</span><span>لا كهرباء في جزء من المنزل</span></h3></div><ol class="b0001-sss-karar-agaci-adimlar"><li class="b0001-sss-karar-agaci-adim" style="--j: 0"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">1</span><p class="b0001-sss-karar-agaci-cevap">تحقق من وجود قاطع مفصول في اللوحة.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 1"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">2</span><p class="b0001-sss-karar-agaci-cevap">إذا انقطعت الكهرباء عند الجيران أيضًا فاتصل بشركة التوزيع.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 2"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">3</span><p class="b0001-sss-karar-agaci-cevap">إن كان الانقطاع عندك فقط فاختر «عطل» في معالج عرض السعر.</p></li></ol><div class="b0001-sss-karar-agaci-yardim"><p class="b0001-sss-karar-agaci-ymetin"><span class="b0001-sss-karar-agaci-yikon material-symbols-outlined" aria-hidden="true">support_agent</span><span>لم تُحل؟ خط المناوبة يساعدك.</span></p><div class="b0001-sss-karar-agaci-cta"><a class="b0001-sss-karar-agaci-dugme" href="/ar/iletisim/">اطلب فريقًا<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0001-sss-karar-agaci-cozum" id="b0001-sss-karar-agaci-xpllz1-c4" data-agac-panel="4" role="region" aria-labelledby="b0001-sss-karar-agaci-xpllz1-h4" tabindex="-1"><div class="b0001-sss-karar-agaci-cust"><button type="button" class="b0001-sss-karar-agaci-geri" data-agac-geri hidden><span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_back</span><span>كل المشكلات</span></button><h3 class="b0001-sss-karar-agaci-cbas" id="b0001-sss-karar-agaci-xpllz1-h4"><span class="b0001-sss-karar-agaci-cikon material-symbols-outlined" aria-hidden="true">electric_meter</span><span>هل تحتاج لوحتي إلى تجديد؟</span></h3></div><ol class="b0001-sss-karar-agaci-adimlar"><li class="b0001-sss-karar-agaci-adim" style="--j: 0"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">1</span><p class="b0001-sss-karar-agaci-cevap">إذا كانت اللوحة تحتوي على مصهرات خزفية قديمة فهي بحاجة إلى تجديد.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 1"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">2</span><p class="b0001-sss-karar-agaci-cevap">إذا لم يكن هناك قاطع تيار متسرب فيجب إضافته.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 2"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">3</span><p class="b0001-sss-karar-agaci-cevap">اختر «تجديد اللوحة» في المعالج وأدخل مساحة الشقة.</p></li></ol><div class="b0001-sss-karar-agaci-yardim"><p class="b0001-sss-karar-agaci-ymetin"><span class="b0001-sss-karar-agaci-yikon material-symbols-outlined" aria-hidden="true">support_agent</span><span>لم تُحل؟ خط المناوبة يساعدك.</span></p><div class="b0001-sss-karar-agaci-cta"><a class="b0001-sss-karar-agaci-dugme" href="/ar/iletisim/">اطلب فريقًا<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0001-sss-karar-agaci-cozum" id="b0001-sss-karar-agaci-xpllz1-c5" data-agac-panel="5" role="region" aria-labelledby="b0001-sss-karar-agaci-xpllz1-h5" tabindex="-1"><div class="b0001-sss-karar-agaci-cust"><button type="button" class="b0001-sss-karar-agaci-geri" data-agac-geri hidden><span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_back</span><span>كل المشكلات</span></button><h3 class="b0001-sss-karar-agaci-cbas" id="b0001-sss-karar-agaci-xpllz1-h5"><span class="b0001-sss-karar-agaci-cikon material-symbols-outlined" aria-hidden="true">ev_station</span><span>هل يمكن تركيب شاحن سيارة؟</span></h3></div><ol class="b0001-sss-karar-agaci-adimlar"><li class="b0001-sss-karar-agaci-adim" style="--j: 0"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">1</span><p class="b0001-sss-karar-agaci-cevap">اقرأ قدرة اشتراكك من الفاتورة.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 1"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">2</span><p class="b0001-sss-karar-agaci-cevap">قِس المسافة بين المرأب أو الموقف واللوحة.</p></li><li class="b0001-sss-karar-agaci-adim" style="--j: 2"><span class="b0001-sss-karar-agaci-ano" aria-hidden="true">3</span><p class="b0001-sss-karar-agaci-cevap">اختر «شاحن سيارة» في المعالج لنحدد موعد معاينة.</p></li></ol><div class="b0001-sss-karar-agaci-yardim"><p class="b0001-sss-karar-agaci-ymetin"><span class="b0001-sss-karar-agaci-yikon material-symbols-outlined" aria-hidden="true">support_agent</span><span>لم تُحل؟ خط المناوبة يساعدك.</span></p><div class="b0001-sss-karar-agaci-cta"><a class="b0001-sss-karar-agaci-dugme" href="/ar/iletisim/">اطلب فريقًا<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></div></div></div></div>
+  </div>
+</section>
+
+
+<script>
+  (() => {
+    const P = "b0001-sss-karar-agaci";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const kararAgaci = (s, P, az) => {
+        const bag = [...s.querySelectorAll("[data-agac]")];
+        const pan = [...s.querySelectorAll("[data-agac-panel]")];
+        const izgara = s.querySelector("[data-agac-izgara]");
+        if (!bag.length || !pan.length) return;
+        s.classList.add(P + "--kjs");
+        let son = "";
+        const git = (el) => { if (!el) return; el.focus({ preventScroll: true }); el.scrollIntoView({ behavior: az ? "auto" : "smooth", block: "nearest" }); };
+        const goster = (n, odak) => {
+          pan.forEach((x) => { x.hidden = x.dataset.agacPanel !== n; });
+          if (izgara) izgara.hidden = n !== "";
+          s.classList.toggle(P + "--cozumde", n !== "");
+          if (odak) git(n === "" ? bag.find((a) => a.dataset.agac === son) : pan.find((x) => x.dataset.agacPanel === n));
+        };
+        bag.forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); son = a.dataset.agac; goster(son, true); }));
+        s.querySelectorAll("[data-agac-geri]").forEach((b) => { b.hidden = false; b.addEventListener("click", () => goster("", true)); });
+        goster("", false);
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      kararAgaci(s, P, az);
+    });
+  })();
+</script>
+</div>
+  <div id="footer"><footer class="f0000-alt-etiket-bulut f0000-alt-etiket-bulut--bassiz" >
+  <div class="f0000-alt-etiket-bulut-ic">
+    
+    <div class="f0000-alt-etiket-bulut-izgara"><div class="f0000-alt-etiket-bulut-bulut"><div class="f0000-alt-etiket-bulut-blok"><h2 class="f0000-alt-etiket-bulut-bbaslik">الصفحات</h2><ul class="f0000-alt-etiket-bulut-etiketler"><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/">الصفحة الرئيسية</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/hizmetler/">الخدمات</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/hakkimizda/">من نحن</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/sorular/">دليل الأعطال</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/referanslar/">أعمالنا</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/teklif-al/" aria-current="page">معالج عرض السعر</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/iletisim/">التغطية والتواصل</a></li></ul></div><div class="f0000-alt-etiket-bulut-blok"><h2 class="f0000-alt-etiket-bulut-bbaslik">روابط سريعة</h2><ul class="f0000-alt-etiket-bulut-etiketler"><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/hizmetler/">الأعطال والطوارئ</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/hizmetler/">تجديد اللوحات</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/teklif-al/">معالج عرض السعر</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/iletisim/">التحقق من التغطية</a></li></ul></div><div class="f0000-alt-etiket-bulut-blok"><h2 class="f0000-alt-etiket-bulut-bbaslik">اتصل بنا</h2><ul class="f0000-alt-etiket-bulut-cipler"><li class="f0000-alt-etiket-bulut-il f0000-alt-etiket-bulut-il--adres"><span class="f0000-alt-etiket-bulut-il-ikon material-symbols-outlined" aria-hidden="true">location_on</span><span class="f0000-alt-etiket-bulut-il-ic"><span>شاهين بي، غازي عنتاب (عنوان افتراضي)</span></span></li><li class="f0000-alt-etiket-bulut-il f0000-alt-etiket-bulut-il--tel"><span class="f0000-alt-etiket-bulut-il-ikon material-symbols-outlined" aria-hidden="true">call</span><span class="f0000-alt-etiket-bulut-il-ic"><a class="f0000-alt-etiket-bulut-bag" href="tel:+903420410707"><bdi dir="ltr">+90 342 041 07 07</bdi></a></span></li><li class="f0000-alt-etiket-bulut-il f0000-alt-etiket-bulut-il--posta"><span class="f0000-alt-etiket-bulut-il-ikon material-symbols-outlined" aria-hidden="true">mail</span><span class="f0000-alt-etiket-bulut-il-ic"><a class="f0000-alt-etiket-bulut-bag" href="mailto:servis@fazelektrik.example"><bdi dir="ltr">servis@fazelektrik.example</bdi></a></span></li></ul></div><div class="f0000-alt-etiket-bulut-blok"><h2 class="f0000-alt-etiket-bulut-bbaslik">ساعات العمل</h2><dl class="f0000-alt-etiket-bulut-rozetler"><div class="f0000-alt-etiket-bulut-saat"><dt>الفرق الميدانية · يوميًا</dt><dd><bdi dir="ltr">07:00 – 23:00</bdi></dd></div><div class="f0000-alt-etiket-bulut-saat"><dt>المكتب · الاثنين–السبت</dt><dd><bdi dir="ltr">08:30 – 18:30</bdi></dd></div><div class="f0000-alt-etiket-bulut-saat"><dt>خط الطوارئ</dt><dd><bdi dir="ltr">7/24</bdi></dd></div></dl></div></div><div class="f0000-alt-etiket-bulut-nl"><div class="f0000-alt-etiket-bulut-nl-yazi"><h2 class="f0000-alt-etiket-bulut-nl-baslik">تذكير الصيانة</h2><p class="f0000-alt-etiket-bulut-nl-metin">احصل على تذكير بالفحص السنوي للوحة والتأريض. لا تُحفظ أي بيانات في هذا الموقع التجريبي.</p></div><form class="f0000-alt-etiket-bulut-bulten" data-fb-form data-eposta="servis@fazelektrik.example" data-konu="تذكير الصيانة" data-ok="تم إرسال رسالتك. سنعود إليك قريبًا." data-hata="تعذّر إرسال الرسالة. يرجى التواصل عبر الهاتف أو البريد الإلكتروني." action="mailto:servis@fazelektrik.example" method="post" enctype="text/plain"><label class="f0000-alt-etiket-bulut-nl-etiket" for="f0000-alt-etiket-bulut-1uelc2-nl">البريد الإلكتروني</label><span class="f0000-alt-etiket-bulut-nl-satir"><input class="f0000-alt-etiket-bulut-nl-girdi" id="f0000-alt-etiket-bulut-1uelc2-nl" name="email" type="email" inputmode="email" autocomplete="email" required /><button type="submit" class="f0000-alt-etiket-bulut-nl-dugme">إرسال<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></button></span><span class="f0000-alt-etiket-bulut-nl-durum" role="status" aria-live="polite"></span><p class="f0000-alt-etiket-bulut-nl-kvkk">يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت.</p></form></div></div><div class="f0000-alt-etiket-bulut-alt"><div class="f0000-alt-etiket-bulut-marka"><a class="f0000-alt-etiket-bulut-logo" href="/ar/" aria-label="الصفحة الرئيسية - Faz Elektrik"><img src="/img/logo.png" alt="Faz Elektrik" loading="lazy" decoding="async" /></a><p class="f0000-alt-etiket-bulut-hakkinda">فاز للكهرباء: خدمة تجريبية افتراضية للأعطال واللوحات والتمديدات في غازي عنتاب.</p></div><div class="f0000-alt-etiket-bulut-son"><p class="f0000-alt-etiket-bulut-telif"><span>&copy; 2026 Faz Elektrik</span><span>جميع الحقوق محفوظة</span></p><ul class="f0000-alt-etiket-bulut-yasal"><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/kisiselveriler/">حماية البيانات</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/gizlilikpolitikasi/">سياسة الخصوصية</a></li><li><a class="f0000-alt-etiket-bulut-bag" href="/ar/yasaluyari/">إشعار قانوني</a></li></ul><div class="f0000-alt-etiket-bulut-dil"><nav class="wm-langbar" aria-label="محدد اللغة"><ul><li class="wm-lang-item"><a href="/tr/teklif-al/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item"><a href="/en/teklif-al/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/teklif-al/" hreflang="ar" lang="ar" aria-current="true">AR</a></li></ul></nav></div><a class="f0000-alt-etiket-bulut-yukari" href="#" aria-label="العودة إلى الأعلى"><span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span></a></div></div>
+  </div>
+</footer>
+
+
+<script>
+  (() => {
+    const P = "f0000-alt-etiket-bulut";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const form = (s, P) => {
+        s.querySelectorAll("form[data-fb-form]").forEach((f) => {
+          const durum = f.querySelector("[role=status]");
+          const yaz = (m, hata) => { if (durum) { durum.textContent = m || ""; durum.classList.toggle(P + "-durum--hata", !!hata); } };
+          let t0 = Date.now();
+          const al = (ad) => { const e = f.elements.namedItem(ad); return e && "value" in e ? String(e.value).trim() : ""; };
+          const etiket = (ad) => { const e = f.elements.namedItem(ad); const l = e && e.id ? f.querySelector(`label[for="${e.id}"]`) : null; return l ? l.textContent.trim() : ad; };
+          const konuMetin = () => { const e = f.elements.namedItem("topic"); return e && e.selectedIndex > 0 ? e.options[e.selectedIndex].text.trim() : ""; };
+          f.addEventListener("submit", (e) => {
+            e.preventDefault();
+            if (!f.checkValidity()) { f.reportValidity(); return; }
+            if (al("website")) return;
+            const govde = ["name", "email", "phone"].filter(al).map((k) => `${etiket(k)}: ${al(k)}`)
+              .concat(konuMetin() ? [`${etiket("topic")}: ${konuMetin()}`] : [], al("message") ? ["", al("message")] : []).join("\n");
+            const d = f.dataset;
+            if (d.action) {
+              const b = f.querySelector("[type=submit]");
+              if (b) b.disabled = true;
+              const yuk = { name: al("name"), email: al("email"), phone: al("phone"), topic: konuMetin(), message: al("message"), kvkk: true, lang: document.documentElement.lang || "", page: location.pathname, website: al("website"), t: Date.now() - t0 };
+              fetch(d.action, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(yuk) })
+                .then((r) => r.json().catch(() => ({})).then((j) => r.ok && j && j.ok !== false))
+                .then((ok) => { if (b) b.disabled = false; yaz(ok ? d.ok : d.hata, !ok); if (ok) { f.reset(); t0 = Date.now(); } })
+                .catch(() => { if (b) b.disabled = false; yaz(d.hata, true); });
+              return;
+            }
+            if (d.gonderim === "whatsapp" && d.wa) { window.open(`https://wa.me/${d.wa}?text=${encodeURIComponent(govde)}`, "_blank", "noopener"); return; }
+            if (d.eposta) {
+              const konu = [d.konu || "", konuMetin()].filter(Boolean).join(" - ");
+              location.href = `mailto:${d.eposta}?subject=${encodeURIComponent(konu)}&body=${encodeURIComponent(govde.replace(/\n/g, "\r\n"))}`;
+            }
+          });
+        });
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      form(s, P, az);
+    });
+  })();
+</script>
+<div class="f0001-dk" role="contentinfo" aria-label="معلومات العرض التجريبي">
+  <p class="f0001-dk-text">تم إعداد هذا العرض التجريبي بواسطة <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#elektrik-2" target="_blank" rel="noopener noreferrer"><span>اطلب هذا القالب</span><span class="mx-visually-hidden"> (يفتح في علامة تبويب جديدة)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
+</div>
+
+<nav class="wm-yasal" aria-label="الشركة والشؤون القانونية" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #F3F6FB);color:var(--mx-site-text, #111111);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #111111)">الشركة والشؤون القانونية</strong><a href="/ar/misyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">المهمة</a><a href="/ar/vizyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">الرؤية</a><a href="/ar/kalitepolitikamiz/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">سياسة الجودة</a><a href="/ar/kullanicahaklari/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">حقوق المستخدم</a></nav></div>
+
+  
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=m1j79"></script>
+  <script defer src="/src/mx-store.js?v=m1j79"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=m1j79"></script>
+  <script defer src="/src/cookie.js?v=m1j79"></script>
+
+</body>
+
+</html>
