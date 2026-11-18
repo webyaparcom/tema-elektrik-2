@@ -3,17 +3,23 @@
   "name": {
     "tr": "Hizmetler",
     "en": "Services",
-    "ar": "الخدمات"
+    "ar": "الخدمات",
+    "de": "Leistungen",
+    "ru": "Услуги"
   },
   "description": {
     "tr": "Konut, dükkân ve atölye için ölçülü, belgeli elektrik işleri.",
     "en": "Measured, documented electrical work for homes, shops and workshops.",
-    "ar": "أعمال كهربائية مدروسة وموثّقة للمنازل والمحلات والورش."
+    "ar": "أعمال كهربائية مدروسة وموثّقة للمنازل والمحلات والورش.",
+    "de": "Fachgerechte, dokumentierte Elektroarbeiten für Wohnungen, Läden und Werkstätten.",
+    "ru": "Выверенные, документированные электромонтажные работы для квартир, магазинов и мастерских."
   },
   "keyword": {
     "tr": "Hizmetler",
     "en": "Services",
-    "ar": "الخدمات"
+    "ar": "الخدمات",
+    "de": "Leistungen",
+    "ru": "Услуги"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -34,7 +40,9 @@
   "title": {
     "tr": "Hizmetler",
     "en": "Services",
-    "ar": "الخدمات"
+    "ar": "الخدمات",
+    "de": "Leistungen",
+    "ru": "Услуги"
   },
   "date": "2026-11-16T11:26:04.253Z",
   "update": "2026-11-16T11:26:04.257Z"

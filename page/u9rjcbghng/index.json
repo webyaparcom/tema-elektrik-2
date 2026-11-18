@@ -3,17 +3,23 @@
   "name": {
     "tr": "İşlerimiz",
     "en": "Our work",
-    "ar": "أعمالنا"
+    "ar": "أعمالنا",
+    "de": "Projekte",
+    "ru": "Проекты"
   },
   "description": {
     "tr": "İlçelere göre tamamlanan işler ve vakalar (kurgusal).",
     "en": "Completed jobs and cases by district (fictional).",
-    "ar": "الأعمال المنجزة والحالات حسب المنطقة (افتراضية)."
+    "ar": "الأعمال المنجزة والحالات حسب المنطقة (افتراضية).",
+    "de": "Abgeschlossene Arbeiten und Fälle nach Bezirken (fiktiv).",
+    "ru": "Завершённые работы и дела по районам (вымышленные)."
   },
   "keyword": {
     "tr": "referans, müşteri yorumu",
     "en": "reference, review",
-    "ar": "مرجع، تقييم"
+    "ar": "مرجع، تقييم",
+    "de": "Referenz, Kundenbewertung",
+    "ru": "рекомендация, отзыв клиента"
   },
   "path": "referanslar",
   "icon": "stars",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "İşlerimiz",
     "en": "Our work",
-    "ar": "أعمالنا"
+    "ar": "أعمالنا",
+    "de": "Projekte",
+    "ru": "Проекты"
   },
   "date": "2026-11-16T11:26:04.266Z",
   "update": "2026-11-16T11:26:04.270Z"

@@ -3,17 +3,23 @@
   "name": {
     "tr": "Teklif sihirbazı",
     "en": "Quote wizard",
-    "ar": "معالج عرض السعر"
+    "ar": "معالج عرض السعر",
+    "de": "Angebot",
+    "ru": "Расчет"
   },
   "description": {
     "tr": "Üç adımda elektrik işi teklifi (demo).",
     "en": "A three-step electrical quote (demo).",
-    "ar": "عرض سعر لعمل كهربائي في ثلاث خطوات (تجريبي)."
+    "ar": "عرض سعر لعمل كهربائي في ثلاث خطوات (تجريبي).",
+    "de": "Elektriker-Angebot in drei Schritten (Demo).",
+    "ru": "Расчет стоимости электромонтажных работ в три шага (демо)."
   },
   "keyword": {
     "tr": "teklif",
     "en": "quote",
-    "ar": "عرض سعر"
+    "ar": "عرض سعر",
+    "de": "Angebot",
+    "ru": "оценка"
   },
   "path": "teklif-al",
   "icon": "request_quote",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Teklif sihirbazı",
     "en": "Quote wizard",
-    "ar": "معالج عرض السعر"
+    "ar": "معالج عرض السعر",
+    "de": "Angebot",
+    "ru": "Расчет"
   },
   "date": "2026-11-16T11:26:04.271Z",
   "update": "2026-11-16T11:26:04.275Z"

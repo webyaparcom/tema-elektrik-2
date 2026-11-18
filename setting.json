@@ -4,12 +4,16 @@
   "description": {
     "tr": "Faz Elektrik: arıza, pano, tesisat ve şarj ünitesi için üç adımda online teklif; 07:00–23:00 saha ekibi. Demo site; içerik kurgusaldır.",
     "en": "Faz Electric: an online quote in three steps for faults, panels, wiring and EV chargers; field crews 07:00–23:00. Demo site; content is fictional.",
-    "ar": "فاز للكهرباء: عرض سعر عبر الإنترنت في ثلاث خطوات للأعطال واللوحات والتمديدات وشواحن السيارات؛ فرق ميدانية من 07:00 إلى 23:00. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "فاز للكهرباء: عرض سعر عبر الإنترنت في ثلاث خطوات للأعطال واللوحات والتمديدات وشواحن السيارات؛ فرق ميدانية من 07:00 إلى 23:00. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Faz Elektrik: Online-Angebot in drei Schritten für Störungen, Schaltschränke, Installationen und Ladestationen; Einsatzteam 07:00–23:00. Demo-Website; der Inhalt ist fiktiv.",
+    "ru": "Faz Elektrik: онлайн-смета в три шага для аварий, щитов, электропроводки и зарядных станций; выездная бригада 07:00–23:00. Демо-сайт; содержание вымышленное."
   },
   "keyword": {
     "tr": "elektrikçi, elektrik arıza, pano yenileme, elektrik tesisatı, şarj ünitesi",
     "en": "electrician, electrical fault, panel replacement, electrical wiring, EV charger",
-    "ar": "كهربائي، أعطال كهربائية، تجديد اللوحات، تمديدات كهربائية، شاحن سيارات كهربائية"
+    "ar": "كهربائي، أعطال كهربائية، تجديد اللوحات، تمديدات كهربائية، شاحن سيارات كهربائية",
+    "de": "Elektriker, Elektrostörung, Schaltschrank-Erneuerung, Elektroinstallation, Ladestation",
+    "ru": "электрик, неисправности электрики, замена щитка, электропроводка, зарядная станция"
   },
   "category": "Kurumsal",
   "name": "Faz Elektrik",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

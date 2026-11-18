@@ -3,17 +3,23 @@
   "name": {
     "tr": "Arıza rehberi",
     "en": "Fault guide",
-    "ar": "دليل الأعطال"
+    "ar": "دليل الأعطال",
+    "de": "Fehlerbehebung",
+    "ru": "Устранение неисправностей"
   },
   "description": {
     "tr": "Sık görülen arızalar için adım adım güvenlik rehberi.",
     "en": "A step-by-step safety guide for common faults.",
-    "ar": "دليل سلامة خطوة بخطوة للأعطال الشائعة."
+    "ar": "دليل سلامة خطوة بخطوة للأعطال الشائعة.",
+    "de": "Schritt-für-Schritt-Sicherheitsleitfaden für häufige Störungen.",
+    "ru": "Пошаговое руководство по безопасности при частых неисправностях."
   },
   "keyword": {
     "tr": "sss, soru cevap",
     "en": "faq, questions",
-    "ar": "أسئلة وأجوبة"
+    "ar": "أسئلة وأجوبة",
+    "de": "FAQ, Fragen und Antworten",
+    "ru": "FAQ, вопросы и ответы"
   },
   "path": "sorular",
   "icon": "help",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Arıza rehberi",
     "en": "Fault guide",
-    "ar": "دليل الأعطال"
+    "ar": "دليل الأعطال",
+    "de": "Fehlerbehebung",
+    "ru": "Устранение неисправностей"
   },
   "date": "2026-11-16T11:26:04.262Z",
   "update": "2026-11-16T11:26:04.265Z"

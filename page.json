@@ -5,12 +5,16 @@
       "name": {
         "tr": "Hizmetler",
         "en": "Services",
-        "ar": "الخدمات"
+        "ar": "الخدمات",
+        "de": "Leistungen",
+        "ru": "Услуги"
       },
       "description": {
         "tr": "Konut, dükkân ve atölye için ölçülü, belgeli elektrik işleri.",
         "en": "Measured, documented electrical work for homes, shops and workshops.",
-        "ar": "أعمال كهربائية مدروسة وموثّقة للمنازل والمحلات والورش."
+        "ar": "أعمال كهربائية مدروسة وموثّقة للمنازل والمحلات والورش.",
+        "de": "Fachgerechte, dokumentierte Elektroarbeiten für Wohnungen, Läden und Werkstätten.",
+        "ru": "Выверенные, документированные электромонтажные работы для квартир, магазинов и мастерских."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -31,7 +35,9 @@
       "name": {
         "tr": "Hakkımızda",
         "en": "About us",
-        "ar": "من نحن"
+        "ar": "من نحن",
+        "de": "Über uns",
+        "ru": "О нас"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -52,7 +58,9 @@
       "description": {
         "tr": "2012'den bu yana adım adım büyüyen kurgusal bir elektrik servisi.",
         "en": "A fictional electrical service growing step by step since 2012.",
-        "ar": "خدمة كهربائية افتراضية تنمو خطوة بخطوة منذ 2012."
+        "ar": "خدمة كهربائية افتراضية تنمو خطوة بخطوة منذ 2012.",
+        "de": "Ein fiktiver Elektroservice, der seit 2012 Schritt für Schritt gewachsen ist.",
+        "ru": "Вымышленная электрослужба, которая шаг за шагом растёт с 2012 года."
       }
     },
     {
@@ -60,12 +68,16 @@
       "name": {
         "tr": "Arıza rehberi",
         "en": "Fault guide",
-        "ar": "دليل الأعطال"
+        "ar": "دليل الأعطال",
+        "de": "Fehlerbehebung",
+        "ru": "Устранение неисправностей"
       },
       "description": {
         "tr": "Sık görülen arızalar için adım adım güvenlik rehberi.",
         "en": "A step-by-step safety guide for common faults.",
-        "ar": "دليل سلامة خطوة بخطوة للأعطال الشائعة."
+        "ar": "دليل سلامة خطوة بخطوة للأعطال الشائعة.",
+        "de": "Schritt-für-Schritt-Sicherheitsleitfaden für häufige Störungen.",
+        "ru": "Пошаговое руководство по безопасности при частых неисправностях."
       },
       "path": "sorular",
       "icon": "help",
@@ -86,12 +98,16 @@
       "name": {
         "tr": "İşlerimiz",
         "en": "Our work",
-        "ar": "أعمالنا"
+        "ar": "أعمالنا",
+        "de": "Projekte",
+        "ru": "Проекты"
       },
       "description": {
         "tr": "İlçelere göre tamamlanan işler ve vakalar (kurgusal).",
         "en": "Completed jobs and cases by district (fictional).",
-        "ar": "الأعمال المنجزة والحالات حسب المنطقة (افتراضية)."
+        "ar": "الأعمال المنجزة والحالات حسب المنطقة (افتراضية).",
+        "de": "Abgeschlossene Arbeiten und Fälle nach Bezirken (fiktiv).",
+        "ru": "Завершённые работы и дела по районам (вымышленные)."
       },
       "path": "referanslar",
       "icon": "stars",
@@ -112,12 +128,16 @@
       "name": {
         "tr": "Teklif sihirbazı",
         "en": "Quote wizard",
-        "ar": "معالج عرض السعر"
+        "ar": "معالج عرض السعر",
+        "de": "Angebot",
+        "ru": "Расчет"
       },
       "description": {
         "tr": "Üç adımda elektrik işi teklifi (demo).",
         "en": "A three-step electrical quote (demo).",
-        "ar": "عرض سعر لعمل كهربائي في ثلاث خطوات (تجريبي)."
+        "ar": "عرض سعر لعمل كهربائي في ثلاث خطوات (تجريبي).",
+        "de": "Elektriker-Angebot in drei Schritten (Demo).",
+        "ru": "Расчет стоимости электромонтажных работ в три шага (демо)."
       },
       "path": "teklif-al",
       "icon": "request_quote",
@@ -137,7 +157,9 @@
       "name": {
         "tr": "Kapsama ve iletişim",
         "en": "Coverage & contact",
-        "ar": "التغطية والتواصل"
+        "ar": "التغطية والتواصل",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -158,7 +180,9 @@
       "description": {
         "tr": "Adres, telefon ve çalışma saatleri.",
         "en": "Address, phone and opening hours.",
-        "ar": "العنوان والهاتف وساعات العمل."
+        "ar": "العنوان والهاتف وساعات العمل.",
+        "de": "Adresse, Telefon und Öffnungszeiten.",
+        "ru": "Адрес, телефон и часы работы."
       }
     }
   ],
